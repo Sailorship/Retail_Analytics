@@ -22,7 +22,7 @@ def upload(report):
         "Sale Price": "mean"
     }).reset_index()
 
-    COGS = (report['Opening Stock'] + report['Purchase Quantity'] - report['Closing Stock']) * report['Purchase Price']
+    COGS = report['Units Sold'] * report['Purchase Price']
     metrics = report[["Product Name", "Category"]].copy()
 
 
@@ -36,13 +36,16 @@ def upload(report):
     metrics['Cost'] = (report['Units Sold'] * report['Purchase Price'])
     metrics['Gross Profit'] = (metrics['Revenue'] - metrics['Cost'])
     metrics['Profit Margin'] = ((metrics['Gross Profit'] / metrics['Revenue']) * 100)
-
+    metrics["Days_Remaining"] = metrics["Days_Remaining"].clip(lower=0)
+    metrics["Stock Status"] = metrics["Days_Remaining"].apply(
+        lambda x: "Out of Stock" if x == 0 else ("No Sales" if x == float('inf') else f"{int(x)} {'day' if x == 1 else 'days'}")
+    )
 
 
     cond = [
-        metrics["Inventory_TR"] >= 3,
-        (metrics["Inventory_TR"] >= 1) & (metrics["Inventory_TR"] < 3),
-        metrics["Inventory_TR"] < 1
+        metrics["Days_Remaining"] <= 15,
+        (metrics["Days_Remaining"] > 15) & (metrics["Days_Remaining"] <= 60),
+        metrics["Days_Remaining"] > 60
     ]
 
     choices = [

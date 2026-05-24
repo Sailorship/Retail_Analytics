@@ -1,0 +1,121 @@
+Date,Product Name,Category,Opening Stock,Purchase Quantity,Units Sold,Closing Stock,Inventory Turnover Ratio,Purchase Price,Sale Price,Supplier Name
+2026-04-01,Classic Cotton Shirt,Men's Wear,89,56,82,63,1.08,514,690.66,Surya Textiles
+2026-04-01,Slim Fit Jeans,Men's Wear,75,51,86,40,1.5,456,630.51,Surya Textiles
+2026-04-01,Linen Kurta,Men's Wear,75,51,109,17,2.37,953,1236.3,Mahalaxmi Traders
+2026-04-01,Formal Trousers,Men's Wear,125,12,39,98,0.35,970,1213.07,Royal Fabrics
+2026-04-01,Graphic T-Shirt,Men's Wear,86,58,71,73,0.89,586,733.85,Surya Textiles
+2026-04-01,Silk Saree,Women's Wear,86,10,29,67,0.38,679,1007.3,Royal Fabrics
+2026-04-01,Floral Kurti,Women's Wear,93,32,114,11,2.19,2253,3025.47,Urban Stitch Pvt Ltd
+2026-04-01,Leggings Pack,Women's Wear,70,43,117,-4,3.55,1706,2443.99,Vardhan Apparels
+2026-04-01,Designer Blouse,Women's Wear,60,30,90,0,3.0,2458,3558.41,BlueLeaf Wholesale
+2026-04-01,Denim Jacket,Women's Wear,74,70,115,29,2.23,2400,3364.88,BlueLeaf Wholesale
+2026-04-01,Kids Cartoon T-Shirt,Kids Wear,66,53,97,22,2.2,2291,3281.2,Surya Textiles
+2026-04-01,School Uniform Set,Kids Wear,45,61,107,-1,4.86,1043,1568.71,Urban Stitch Pvt Ltd
+2026-04-01,Kids Ethnic Wear,Kids Wear,140,22,22,140,0.16,996,1361.75,BlueLeaf Wholesale
+2026-04-01,Baby Romper,Kids Wear,89,51,66,74,0.81,2170,3006.92,Mahalaxmi Traders
+2026-04-01,Kids Sneakers,Kids Wear,63,30,87,6,2.52,661,1018.64,Mahalaxmi Traders
+2026-04-01,Leather Belt,Accessories,77,30,29,78,0.37,565,811.45,Royal Fabrics
+2026-04-01,Fashion Handbag,Accessories,139,25,25,139,0.18,795,1194.17,Mahalaxmi Traders
+2026-04-01,Printed Scarf,Accessories,88,59,67,80,0.8,699,982.5,Surya Textiles
+2026-04-01,Silver Earrings,Accessories,41,46,116,-29,19.33,287,404.59,Urban Stitch Pvt Ltd
+2026-04-01,Sports Cap,Accessories,80,56,65,71,0.86,428,678.01,Surya Textiles
+2026-04-01,Running Shoes,Footwear,62,35,70,27,1.57,1764,2243.65,Royal Fabrics
+2026-04-01,Casual Sandals,Footwear,64,34,99,-1,3.14,517,790.24,BlueLeaf Wholesale
+2026-04-01,Formal Shoes,Footwear,60,46,95,11,2.68,1800,2504.65,Surya Textiles
+2026-04-01,Women's Heels,Footwear,114,10,40,84,0.4,1650,2255.86,BlueLeaf Wholesale
+2026-04-01,Flip Flops,Footwear,66,34,110,-10,3.93,835,1302.06,BlueLeaf Wholesale
+2026-04-01,Winter Hoodie,Men's Wear,150,12,6,156,0.04,889,1227.03,BlueLeaf Wholesale
+2026-04-01,Heavy Bridal Lehenga,Women's Wear,169,19,3,185,0.02,534,809.18,BlueLeaf Wholesale
+2026-04-01,Woolen Shawl,Women's Wear,169,21,1,189,0.01,1492,2270.3,Vardhan Apparels
+2026-04-01,Party Clutch,Accessories,200,15,8,207,0.04,495,708.34,Vardhan Apparels
+2026-04-01,Leather Boots,Footwear,214,14,5,223,0.02,1291,1809.03,BlueLeaf Wholesale
+2026-04-08,Classic Cotton Shirt,Men's Wear,95,58,84,69,1.02,384,526.98,Royal Fabrics
+2026-04-08,Slim Fit Jeans,Men's Wear,60,63,97,26,2.26,415,541.78,Vardhan Apparels
+2026-04-08,Linen Kurta,Men's Wear,46,64,111,-1,4.93,862,1181.16,Urban Stitch Pvt Ltd
+2026-04-08,Formal Trousers,Men's Wear,113,12,28,97,0.27,1221,1908.06,Vardhan Apparels
+2026-04-08,Graphic T-Shirt,Men's Wear,60,46,90,16,2.37,1296,1712.2,Surya Textiles
+2026-04-08,Silk Saree,Women's Wear,95,26,26,95,0.27,2350,3003.6,Surya Textiles
+2026-04-08,Floral Kurti,Women's Wear,54,35,103,-14,5.15,1095,1471.56,Urban Stitch Pvt Ltd
+2026-04-08,Leggings Pack,Women's Wear,74,38,116,-4,3.31,643,880.52,Vardhan Apparels
+2026-04-08,Designer Blouse,Women's Wear,70,61,111,20,2.47,854,1302.46,Royal Fabrics
+2026-04-08,Denim Jacket,Women's Wear,93,66,120,39,1.82,415,556.06,Royal Fabrics
+2026-04-08,Kids Cartoon T-Shirt,Kids Wear,54,62,73,43,1.51,1694,2352.18,Vardhan Apparels
+2026-04-08,School Uniform Set,Kids Wear,90,68,103,55,1.42,324,506.86,Royal Fabrics
+2026-04-08,Kids Ethnic Wear,Kids Wear,85,11,31,65,0.41,1706,2547.95,Royal Fabrics
+2026-04-08,Baby Romper,Kids Wear,94,56,85,65,1.07,1782,2824.81,Urban Stitch Pvt Ltd
+2026-04-08,Kids Sneakers,Kids Wear,61,42,117,-14,4.98,1187,1803.77,Mahalaxmi Traders
+2026-04-08,Leather Belt,Accessories,77,23,32,68,0.44,541,861.29,Vardhan Apparels
+2026-04-08,Fashion Handbag,Accessories,92,27,32,87,0.36,421,648.46,Urban Stitch Pvt Ltd
+2026-04-08,Printed Scarf,Accessories,47,46,97,-4,4.51,220,345.97,Vardhan Apparels
+2026-04-08,Silver Earrings,Accessories,64,33,102,-5,3.46,479,607.96,Royal Fabrics
+2026-04-08,Sports Cap,Accessories,76,50,80,46,1.31,455,585.86,BlueLeaf Wholesale
+2026-04-08,Running Shoes,Footwear,68,66,101,33,2.0,1412,1896.41,Urban Stitch Pvt Ltd
+2026-04-08,Casual Sandals,Footwear,69,62,101,30,2.04,1008,1594.73,Urban Stitch Pvt Ltd
+2026-04-08,Formal Shoes,Footwear,51,37,66,22,1.81,1190,1885.2,Royal Fabrics
+2026-04-08,Women's Heels,Footwear,131,27,21,137,0.16,1516,2284.33,Royal Fabrics
+2026-04-08,Flip Flops,Footwear,95,53,79,69,0.96,1609,2090.96,Vardhan Apparels
+2026-04-08,Winter Hoodie,Men's Wear,196,19,5,210,0.02,431,608.65,Vardhan Apparels
+2026-04-08,Heavy Bridal Lehenga,Women's Wear,169,17,7,179,0.04,357,486.31,Surya Textiles
+2026-04-08,Woolen Shawl,Women's Wear,173,21,3,191,0.02,1337,1804.66,Surya Textiles
+2026-04-08,Party Clutch,Accessories,206,15,3,218,0.01,771,967.25,Surya Textiles
+2026-04-08,Leather Boots,Footwear,217,16,4,229,0.02,1051,1506.79,Royal Fabrics
+2026-04-15,Classic Cotton Shirt,Men's Wear,73,35,71,37,1.29,2214,2941.18,Royal Fabrics
+2026-04-15,Slim Fit Jeans,Men's Wear,73,34,105,2,2.8,1444,2213.05,Royal Fabrics
+2026-04-15,Linen Kurta,Men's Wear,68,37,68,37,1.3,1964,3003.39,Vardhan Apparels
+2026-04-15,Formal Trousers,Men's Wear,125,26,31,120,0.25,2072,3142.38,Mahalaxmi Traders
+2026-04-15,Graphic T-Shirt,Men's Wear,99,43,80,62,0.99,2320,3009.26,Surya Textiles
+2026-04-15,Silk Saree,Women's Wear,79,22,20,81,0.25,1301,2040.63,Surya Textiles
+2026-04-15,Floral Kurti,Women's Wear,75,31,80,26,1.58,1988,2941.59,BlueLeaf Wholesale
+2026-04-15,Leggings Pack,Women's Wear,99,41,84,56,1.08,2084,3114.72,Surya Textiles
+2026-04-15,Designer Blouse,Women's Wear,92,50,78,64,1.0,1457,2163.4,Vardhan Apparels
+2026-04-15,Denim Jacket,Women's Wear,90,39,94,35,1.5,406,613.89,Mahalaxmi Traders
+2026-04-15,Kids Cartoon T-Shirt,Kids Wear,82,57,90,49,1.37,1996,2650.12,Vardhan Apparels
+2026-04-15,School Uniform Set,Kids Wear,97,61,120,38,1.78,1073,1487.75,Surya Textiles
+2026-04-15,Kids Ethnic Wear,Kids Wear,83,14,23,74,0.29,1474,1914.32,Royal Fabrics
+2026-04-15,Baby Romper,Kids Wear,41,58,98,1,4.67,1745,2518.26,Urban Stitch Pvt Ltd
+2026-04-15,Kids Sneakers,Kids Wear,64,33,71,26,1.58,1482,2040.68,Vardhan Apparels
+2026-04-15,Leather Belt,Accessories,111,12,44,79,0.46,247,360.0,BlueLeaf Wholesale
+2026-04-15,Fashion Handbag,Accessories,93,23,24,92,0.26,360,570.86,Royal Fabrics
+2026-04-15,Printed Scarf,Accessories,40,40,115,-35,46.0,293,453.56,Surya Textiles
+2026-04-15,Silver Earrings,Accessories,49,44,94,-1,3.92,488,615.52,Royal Fabrics
+2026-04-15,Sports Cap,Accessories,43,33,74,2,3.29,355,525.92,Surya Textiles
+2026-04-15,Running Shoes,Footwear,48,32,87,-7,4.24,1444,2156.61,Royal Fabrics
+2026-04-15,Casual Sandals,Footwear,55,57,106,6,3.48,922,1416.12,Mahalaxmi Traders
+2026-04-15,Formal Shoes,Footwear,58,50,107,1,3.63,683,1015.18,Royal Fabrics
+2026-04-15,Women's Heels,Footwear,77,11,37,51,0.58,1207,1841.17,Surya Textiles
+2026-04-15,Flip Flops,Footwear,58,45,91,12,2.6,725,1140.91,Surya Textiles
+2026-04-15,Winter Hoodie,Men's Wear,191,21,2,210,0.01,1378,2164.37,BlueLeaf Wholesale
+2026-04-15,Heavy Bridal Lehenga,Women's Wear,124,19,4,139,0.03,833,1288.05,Urban Stitch Pvt Ltd
+2026-04-15,Woolen Shawl,Women's Wear,184,10,5,189,0.03,313,478.94,Urban Stitch Pvt Ltd
+2026-04-15,Party Clutch,Accessories,143,20,5,158,0.03,231,319.35,Surya Textiles
+2026-04-15,Leather Boots,Footwear,188,16,5,199,0.03,1721,2727.44,BlueLeaf Wholesale
+2026-04-22,Classic Cotton Shirt,Men's Wear,86,52,92,46,1.39,589,775.76,Royal Fabrics
+2026-04-22,Slim Fit Jeans,Men's Wear,75,64,75,64,1.08,1460,2158.93,Royal Fabrics
+2026-04-22,Linen Kurta,Men's Wear,41,70,108,3,4.91,409,548.52,Mahalaxmi Traders
+2026-04-22,Formal Trousers,Men's Wear,82,14,42,54,0.62,1089,1500.57,Vardhan Apparels
+2026-04-22,Graphic T-Shirt,Men's Wear,97,34,88,43,1.26,715,961.43,Surya Textiles
+2026-04-22,Silk Saree,Women's Wear,102,23,22,103,0.21,1343,1848.51,Vardhan Apparels
+2026-04-22,Floral Kurti,Women's Wear,75,37,125,-13,4.03,1364,1952.97,Surya Textiles
+2026-04-22,Leggings Pack,Women's Wear,91,70,120,41,1.82,1650,2228.18,BlueLeaf Wholesale
+2026-04-22,Designer Blouse,Women's Wear,55,30,70,15,2.0,1563,2194.18,Surya Textiles
+2026-04-22,Denim Jacket,Women's Wear,68,54,117,5,3.21,713,1123.9,Urban Stitch Pvt Ltd
+2026-04-22,Kids Cartoon T-Shirt,Kids Wear,48,54,65,37,1.53,1038,1595.51,Royal Fabrics
+2026-04-22,School Uniform Set,Kids Wear,40,56,73,23,2.32,1158,1544.76,Surya Textiles
+2026-04-22,Kids Ethnic Wear,Kids Wear,123,15,44,94,0.41,1015,1459.21,Royal Fabrics
+2026-04-22,Baby Romper,Kids Wear,41,37,115,-37,57.5,1551,1973.99,Vardhan Apparels
+2026-04-22,Kids Sneakers,Kids Wear,43,70,108,5,4.5,1912,2568.08,Vardhan Apparels
+2026-04-22,Leather Belt,Accessories,109,29,37,101,0.35,342,532.24,BlueLeaf Wholesale
+2026-04-22,Fashion Handbag,Accessories,88,19,29,78,0.35,496,792.4,Mahalaxmi Traders
+2026-04-22,Printed Scarf,Accessories,42,57,69,30,1.92,587,777.3,Mahalaxmi Traders
+2026-04-22,Silver Earrings,Accessories,75,44,118,1,3.11,324,480.53,Surya Textiles
+2026-04-22,Sports Cap,Accessories,52,55,101,6,3.48,609,884.51,BlueLeaf Wholesale
+2026-04-22,Running Shoes,Footwear,100,53,69,84,0.75,1388,2080.47,Mahalaxmi Traders
+2026-04-22,Casual Sandals,Footwear,100,64,94,70,1.11,683,958.77,Mahalaxmi Traders
+2026-04-22,Formal Shoes,Footwear,81,63,71,73,0.92,572,746.27,BlueLeaf Wholesale
+2026-04-22,Women's Heels,Footwear,130,29,32,127,0.25,603,930.49,Urban Stitch Pvt Ltd
+2026-04-22,Flip Flops,Footwear,65,57,127,-5,4.23,873,1287.69,Surya Textiles
+2026-04-22,Winter Hoodie,Men's Wear,139,14,6,147,0.04,657,831.25,BlueLeaf Wholesale
+2026-04-22,Heavy Bridal Lehenga,Women's Wear,173,18,4,187,0.02,1536,2116.11,Royal Fabrics
+2026-04-22,Woolen Shawl,Women's Wear,204,12,6,210,0.03,1053,1512.88,Surya Textiles
+2026-04-22,Party Clutch,Accessories,138,13,5,146,0.04,744,1087.26,BlueLeaf Wholesale
+2026-04-22,Leather Boots,Footwear,190,25,2,213,0.01,1004,1475.3,Urban Stitch Pvt Ltd

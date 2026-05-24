@@ -45,13 +45,6 @@ if 'metrics' in st.session_state:
     with col3:
         st.metric("Deadstock", counts.get("Deadstock", 0))
 
-    # Category-by Profit
-    st.subheader("Category-wise Gross Profit")
-    category_profit = metrics.groupby("Category")["Gross Profit"].sum()
-    st.bar_chart(category_profit)
-
-    st.subheader('Weekly Trend')
-    st.line_chart(weekly_trend.set_index('Date')['Units Sold'])
 
     # Sidebar
     st.sidebar.metric("Total Revenue", f"₹{metrics['Revenue'].sum():,.0f}")
@@ -89,10 +82,18 @@ if 'metrics' in st.session_state:
                         for _, row in group.iterrows():
                             st.write(f"{row['Product Name']} is not moving. Consider a Discount or Promotion.")
 
+    # Category-by Profit
+    st.subheader("Category-wise Gross Profit")
+    category_profit = metrics.groupby("Category")["Gross Profit"].sum()
+    st.bar_chart(category_profit)
+
+    st.subheader('Weekly Trend')
+    st.line_chart(weekly_trend.set_index('Date')['Units Sold'])
 
 
+    # Data Read/Display
     st.subheader("Retail Analytics")
-    st.dataframe(metrics[["Product Name", "Tracking", "Category", "Days_Remaining"]])
+    st.dataframe(metrics[["Product Name", "Tracking", "Category", "Stock Status"]])
     st.subheader("Raw Inventory Data")
     st.dataframe(report)
 
