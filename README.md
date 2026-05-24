@@ -53,6 +53,8 @@ The tool accepts CSV or Excel files with the following columns:
 
 A sample inventory file is included in the repository for testing.
 
+Supports multiple store types - tested with departmental stores and clothing stores
+
 ---
 
 ## Tech stack

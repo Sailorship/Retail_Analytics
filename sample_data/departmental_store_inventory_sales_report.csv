@@ -1,0 +1,121 @@
+Product Name,Category,HSN Code,Opening Stock,Closing Stock,Units Sold,Purchase Price,Sale Price,Purchase Quantity,Supplier Name,Date
+Aashirvaad Atta 5kg,Grocery,11010000,90,85,13,230,255,8,Shree Distributors,2026-04-01
+India Gate Basmati Rice 5kg,Grocery,10063020,57,7,14,420,465,32,South India Retail Supply,2026-04-01
+Toor Dal 1kg,Grocery,07136000,82,2,28,115,135,36,Shree Distributors,2026-04-01
+Fortune Sunflower Oil 1L,Grocery,15121910,97,3,26,135,160,40,FreshKart Wholesale,2026-04-01
+Tata Salt 1kg,Grocery,25010020,130,138,27,18,22,35,South India Retail Supply,2026-04-01
+Maggi Noodles Pack,Snacks,19023010,198,193,43,11,15,38,Shree Distributors,2026-04-01
+Parle-G Biscuits,Snacks,19053100,192,197,31,8,10,36,Shree Distributors,2026-04-01
+Lays Classic Chips,Snacks,19059040,164,2,28,16,20,26,Bharat FMCG Supply,2026-04-01
+Kurkure Masala Munch,Snacks,19059040,141,144,37,9,12,40,FreshKart Wholesale,2026-04-01
+Haldiram Bhujia 400g,Snacks,21069099,94,92,35,78,95,33,Annapurna Agencies,2026-04-01
+Coca Cola 750ml,Beverages,22021010,122,126,35,32,40,39,South India Retail Supply,2026-04-01
+Pepsi 750ml,Beverages,22021010,121,122,36,31,38,37,Metro Wholesale Traders,2026-04-01
+Sprite 750ml,Beverages,22021010,111,130,25,30,37,44,Metro Wholesale Traders,2026-04-01
+Amul Taaza Milk 1L,Beverages,04012000,107,105,45,52,60,43,Annapurna Agencies,2026-04-01
+Tropicana Orange Juice 1L,Beverages,20091200,80,86,44,88,105,50,Bharat FMCG Supply,2026-04-01
+Dove Shampoo 340ml,Personal Care,33051090,46,49,18,210,260,21,FreshKart Wholesale,2026-04-01
+Clinic Plus Shampoo 340ml,Personal Care,33051090,70,84,9,155,190,23,South India Retail Supply,2026-04-01
+Colgate Toothpaste 200g,Personal Care,33061020,103,103,11,95,120,11,Bharat FMCG Supply,2026-04-01
+Lux Soap Pack,Personal Care,34011110,110,122,19,42,55,31,Bharat FMCG Supply,2026-04-01
+Dettol Handwash 200ml,Personal Care,34013019,84,80,20,75,92,16,Metro Wholesale Traders,2026-04-01
+Surf Excel 1kg,Household,34022090,100,107,13,180,220,20,Shree Distributors,2026-04-01
+Lizol Floor Cleaner 1L,Household,38089400,58,63,19,125,155,24,Annapurna Agencies,2026-04-01
+Harpic Toilet Cleaner 1L,Household,38089400,67,76,18,98,125,27,Shree Distributors,2026-04-01
+Good Knight Refill,Household,38089191,37,49,19,72,95,31,FreshKart Wholesale,2026-04-01
+Vim Dishwash Bar,Household,34011942,108,121,14,9,12,27,Shree Distributors,2026-04-01
+Paper Boat Aamras,Beverages,20098990,54,2,34,28,35,44,Metro Wholesale Traders,2026-04-01
+Britannia Cake,Snacks,19059090,69,69,38,18,25,38,Annapurna Agencies,2026-04-01
+Nescafe Classic 100g,Beverages,21011110,54,61,20,290,340,27,Annapurna Agencies,2026-04-01
+Patanjali Honey 500g,Grocery,04090000,41,53,18,145,175,30,Metro Wholesale Traders,2026-04-01
+Godrej Aer Spray,Household,33074900,41,39,19,120,150,17,South India Retail Supply,2026-04-01
+Aashirvaad Atta 5kg,Grocery,11010000,94,113,19,230,255,38,Metro Wholesale Traders,2026-04-08
+India Gate Basmati Rice 5kg,Grocery,10063020,59,59,24,420,465,24,FreshKart Wholesale,2026-04-08
+Toor Dal 1kg,Grocery,07136000,103,114,19,115,135,30,South India Retail Supply,2026-04-08
+Fortune Sunflower Oil 1L,Grocery,15121910,93,108,20,135,160,35,Shree Distributors,2026-04-08
+Tata Salt 1kg,Grocery,25010020,114,133,22,18,22,41,South India Retail Supply,2026-04-08
+Maggi Noodles Pack,Snacks,19023010,190,195,39,11,15,44,Metro Wholesale Traders,2026-04-08
+Parle-G Biscuits,Snacks,19053100,181,201,47,8,10,67,Metro Wholesale Traders,2026-04-08
+Lays Classic Chips,Snacks,19059040,147,5,38,16,20,35,Metro Wholesale Traders,2026-04-08
+Kurkure Masala Munch,Snacks,19059040,154,173,37,9,12,56,FreshKart Wholesale,2026-04-08
+Haldiram Bhujia 400g,Snacks,21069099,95,95,37,78,95,37,South India Retail Supply,2026-04-08
+Coca Cola 750ml,Beverages,22021010,133,145,25,32,40,37,FreshKart Wholesale,2026-04-08
+Pepsi 750ml,Beverages,22021010,116,120,43,31,38,47,FreshKart Wholesale,2026-04-08
+Sprite 750ml,Beverages,22021010,110,119,31,30,37,40,Annapurna Agencies,2026-04-08
+Amul Taaza Milk 1L,Beverages,04012000,103,2,27,52,60,29,South India Retail Supply,2026-04-08
+Tropicana Orange Juice 1L,Beverages,20091200,77,90,27,88,105,40,Metro Wholesale Traders,2026-04-08
+Dove Shampoo 340ml,Personal Care,33051090,62,58,19,210,260,15,Metro Wholesale Traders,2026-04-08
+Clinic Plus Shampoo 340ml,Personal Care,33051090,60,71,9,155,190,20,FreshKart Wholesale,2026-04-08
+Colgate Toothpaste 200g,Personal Care,33061020,95,107,11,95,120,23,South India Retail Supply,2026-04-08
+Lux Soap Pack,Personal Care,34011110,108,110,16,42,55,18,Annapurna Agencies,2026-04-08
+Dettol Handwash 200ml,Personal Care,34013019,66,64,9,75,92,7,Bharat FMCG Supply,2026-04-08
+Surf Excel 1kg,Household,34022090,88,97,15,180,220,24,Metro Wholesale Traders,2026-04-08
+Lizol Floor Cleaner 1L,Household,38089400,61,5,19,125,155,34,FreshKart Wholesale,2026-04-08
+Harpic Toilet Cleaner 1L,Household,38089400,65,63,21,98,125,19,Shree Distributors,2026-04-08
+Good Knight Refill,Household,38089191,47,46,16,72,95,15,Bharat FMCG Supply,2026-04-08
+Vim Dishwash Bar,Household,34011942,104,101,11,9,12,8,South India Retail Supply,2026-04-08
+Paper Boat Aamras,Beverages,20098990,53,68,20,28,35,35,Metro Wholesale Traders,2026-04-08
+Britannia Cake,Snacks,19059090,67,69,45,18,25,47,Annapurna Agencies,2026-04-08
+Nescafe Classic 100g,Beverages,21011110,50,57,25,290,340,32,Shree Distributors,2026-04-08
+Patanjali Honey 500g,Grocery,04090000,37,44,10,145,175,17,Annapurna Agencies,2026-04-08
+Godrej Aer Spray,Household,33074900,29,46,15,120,150,32,South India Retail Supply,2026-04-08
+Aashirvaad Atta 5kg,Grocery,11010000,91,90,28,230,255,27,Shree Distributors,2026-04-15
+India Gate Basmati Rice 5kg,Grocery,10063020,51,69,32,420,465,50,FreshKart Wholesale,2026-04-15
+Toor Dal 1kg,Grocery,07136000,90,86,12,115,135,8,South India Retail Supply,2026-04-15
+Fortune Sunflower Oil 1L,Grocery,15121910,106,102,17,135,160,13,Metro Wholesale Traders,2026-04-15
+Tata Salt 1kg,Grocery,25010020,115,8,13,18,22,27,Shree Distributors,2026-04-15
+Maggi Noodles Pack,Snacks,19023010,202,215,24,11,15,37,South India Retail Supply,2026-04-15
+Parle-G Biscuits,Snacks,19053100,171,168,42,8,10,39,South India Retail Supply,2026-04-15
+Lays Classic Chips,Snacks,19059040,158,163,39,16,20,44,Shree Distributors,2026-04-15
+Kurkure Masala Munch,Snacks,19059040,151,156,46,9,12,51,Annapurna Agencies,2026-04-15
+Haldiram Bhujia 400g,Snacks,21069099,84,99,45,78,95,60,Bharat FMCG Supply,2026-04-15
+Coca Cola 750ml,Beverages,22021010,144,139,23,32,40,18,South India Retail Supply,2026-04-15
+Pepsi 750ml,Beverages,22021010,113,125,23,31,38,35,Bharat FMCG Supply,2026-04-15
+Sprite 750ml,Beverages,22021010,94,91,33,30,37,30,Bharat FMCG Supply,2026-04-15
+Amul Taaza Milk 1L,Beverages,04012000,109,118,26,52,60,35,FreshKart Wholesale,2026-04-15
+Tropicana Orange Juice 1L,Beverages,20091200,69,89,42,88,105,62,Metro Wholesale Traders,2026-04-15
+Dove Shampoo 340ml,Personal Care,33051090,61,65,18,210,260,22,Metro Wholesale Traders,2026-04-15
+Clinic Plus Shampoo 340ml,Personal Care,33051090,54,52,13,155,190,11,FreshKart Wholesale,2026-04-15
+Colgate Toothpaste 200g,Personal Care,33061020,97,100,11,95,120,14,Shree Distributors,2026-04-15
+Lux Soap Pack,Personal Care,34011110,112,113,15,42,55,16,Bharat FMCG Supply,2026-04-15
+Dettol Handwash 200ml,Personal Care,34013019,76,79,17,75,92,20,Metro Wholesale Traders,2026-04-15
+Surf Excel 1kg,Household,34022090,77,85,20,180,220,28,Metro Wholesale Traders,2026-04-15
+Lizol Floor Cleaner 1L,Household,38089400,40,59,15,125,155,34,Bharat FMCG Supply,2026-04-15
+Harpic Toilet Cleaner 1L,Household,38089400,60,69,22,98,125,31,Annapurna Agencies,2026-04-15
+Good Knight Refill,Household,38089191,47,7,9,72,95,7,Shree Distributors,2026-04-15
+Vim Dishwash Bar,Household,34011942,107,113,9,9,12,15,Shree Distributors,2026-04-15
+Paper Boat Aamras,Beverages,20098990,63,59,25,28,35,21,Metro Wholesale Traders,2026-04-15
+Britannia Cake,Snacks,19059090,76,92,27,18,25,43,Metro Wholesale Traders,2026-04-15
+Nescafe Classic 100g,Beverages,21011110,46,58,48,290,340,60,Annapurna Agencies,2026-04-15
+Patanjali Honey 500g,Grocery,04090000,44,46,16,145,175,18,Shree Distributors,2026-04-15
+Godrej Aer Spray,Household,33074900,33,33,9,120,150,9,Bharat FMCG Supply,2026-04-15
+Aashirvaad Atta 5kg,Grocery,11010000,95,115,28,230,255,48,FreshKart Wholesale,2026-04-22
+India Gate Basmati Rice 5kg,Grocery,10063020,75,78,21,420,465,24,FreshKart Wholesale,2026-04-22
+Toor Dal 1kg,Grocery,07136000,83,79,27,115,135,23,Shree Distributors,2026-04-22
+Fortune Sunflower Oil 1L,Grocery,15121910,96,102,29,135,160,35,Shree Distributors,2026-04-22
+Tata Salt 1kg,Grocery,25010020,117,133,12,18,22,28,Bharat FMCG Supply,2026-04-22
+Maggi Noodles Pack,Snacks,19023010,198,195,55,11,15,52,Bharat FMCG Supply,2026-04-22
+Parle-G Biscuits,Snacks,19053100,181,192,47,8,10,58,South India Retail Supply,2026-04-22
+Lays Classic Chips,Snacks,19059040,150,148,22,16,20,20,Bharat FMCG Supply,2026-04-22
+Kurkure Masala Munch,Snacks,19059040,135,6,44,9,12,47,Annapurna Agencies,2026-04-22
+Haldiram Bhujia 400g,Snacks,21069099,91,111,50,78,95,70,South India Retail Supply,2026-04-22
+Coca Cola 750ml,Beverages,22021010,136,143,26,32,40,33,Shree Distributors,2026-04-22
+Pepsi 750ml,Beverages,22021010,118,135,23,31,38,40,South India Retail Supply,2026-04-22
+Sprite 750ml,Beverages,22021010,115,131,43,30,37,59,FreshKart Wholesale,2026-04-22
+Amul Taaza Milk 1L,Beverages,04012000,123,124,48,52,60,49,Metro Wholesale Traders,2026-04-22
+Tropicana Orange Juice 1L,Beverages,20091200,81,95,34,88,105,48,Metro Wholesale Traders,2026-04-22
+Dove Shampoo 340ml,Personal Care,33051090,63,74,14,210,260,25,Annapurna Agencies,2026-04-22
+Clinic Plus Shampoo 340ml,Personal Care,33051090,60,77,17,155,190,34,Shree Distributors,2026-04-22
+Colgate Toothpaste 200g,Personal Care,33061020,86,102,17,95,120,33,FreshKart Wholesale,2026-04-22
+Lux Soap Pack,Personal Care,34011110,113,127,12,42,55,26,Annapurna Agencies,2026-04-22
+Dettol Handwash 200ml,Personal Care,34013019,77,81,9,75,92,13,Annapurna Agencies,2026-04-22
+Surf Excel 1kg,Household,34022090,100,114,21,180,220,35,Annapurna Agencies,2026-04-22
+Lizol Floor Cleaner 1L,Household,38089400,54,70,18,125,155,34,Annapurna Agencies,2026-04-22
+Harpic Toilet Cleaner 1L,Household,38089400,80,98,24,98,125,42,Metro Wholesale Traders,2026-04-22
+Good Knight Refill,Household,38089191,39,55,19,72,95,35,Bharat FMCG Supply,2026-04-22
+Vim Dishwash Bar,Household,34011942,92,94,24,9,12,26,Shree Distributors,2026-04-22
+Paper Boat Aamras,Beverages,20098990,75,3,29,28,35,28,Annapurna Agencies,2026-04-22
+Britannia Cake,Snacks,19059090,84,5,55,18,25,74,FreshKart Wholesale,2026-04-22
+Nescafe Classic 100g,Beverages,21011110,53,70,29,290,340,46,Annapurna Agencies,2026-04-22
+Patanjali Honey 500g,Grocery,04090000,37,36,21,145,175,20,Metro Wholesale Traders,2026-04-22
+Godrej Aer Spray,Household,33074900,44,42,24,120,150,22,Shree Distributors,2026-04-22
