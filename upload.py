@@ -1,9 +1,37 @@
 import pandas as pd
 import numpy as np
 
+column_mapping = {
+    # Vyapar columns
+    "Item Name": "Product Name",
+    "Particulars": "Product Name",
+    "Item Code": "SKU",
+    "Inward / Purchase Qty": "Purchase Quantity",
+    "Outward / Sale Qty": "Units Sold",
+    "Purchase Qty": "Purchase Quantity",
+    "Sale Qty": "Units Sold",
+    "Closing Qty": "Closing Stock",
+    "Opening Qty": "Opening Stock",
+
+    # myBillBook columns
+    "Outward / Sales Qty": "Units Sold",
+
+    # Common variations
+    "Item": "Product Name",
+    "Product": "Product Name",
+    "Stock Item": "Product Name",
+}
+
+required_columns = ["Product Name", "Category", "Units Sold", "Opening Stock", "Closing Stock", "Purchase Price", "Sale Price", "Date"]
 
 def upload(report):
     report.columns = report.columns.str.strip()
+    report = report.rename(columns=column_mapping)
+
+    missing = [col for col in required_columns if col not in report.columns]
+    if missing:
+        return None, None, missing
+
     report['Date'] = pd.to_datetime(report['Date'])
     days = (report['Date'].max() - report['Date'].min()).days
     report = report.sort_values(by='Date', ascending=True)
@@ -56,7 +84,7 @@ def upload(report):
 
     metrics["Tracking"] = np.select(cond, choices, default="Unknown")
 
-    return metrics, weekly_trend
+    return metrics, weekly_trend, missing
 
 
 

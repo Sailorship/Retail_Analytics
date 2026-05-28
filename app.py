@@ -1,7 +1,5 @@
 import streamlit as st
 import pandas as pd
-
-
 from upload import upload
 
 
@@ -22,7 +20,11 @@ if uploaded is not None and submit:
     else:
         report = pd.read_excel(uploaded)
 
-    metrics, weekly_trend = upload(report)
+    metrics, weekly_trend, missing_cols = upload(report)
+    if metrics is None:
+        st.error(f"Your file is missing required columns: {', '.join(missing_cols)}. Please check your export format.")
+        st.stop()
+
     st.session_state['metrics'] = metrics
     st.session_state['report'] = report
     st.session_state['weekly_trend'] = weekly_trend
@@ -55,20 +57,25 @@ if 'metrics' in st.session_state:
     thres = st.number_input(
         "Enter when you want to be alerted for low stock", value=7
     )
-    #Low stock warning
-    low_stock = metrics[metrics["Days_Remaining"] < thres]
-    if low_stock.empty:
-        st.success("No stocks needed.")
-    else:
-        st.warning(f'{len(low_stock)} items in the inventory need your attention.')
 
-        with st.expander("Low stocks pending actions"):
-            for category, group in low_stock.groupby("Category"):
-                with st.expander(f"{category}"):
-                    for _, row in group.iterrows():
-                        st.write(f"{row['Product Name']} - runs out in {row['Days_Remaining']:.0f} days")
+    # Analytics
+    tab1, tab2, tab3 = st.tabs(['Low-stock','Deadstock', 'Analytics'])
+    with tab1:
+        # Low stock warning
+        low_stock = metrics[metrics["Days_Remaining"] < thres]
+        if low_stock.empty:
+            st.success("No stocks needed.")
+        else:
+            st.warning(f'{len(low_stock)} items in the inventory need your attention.')
 
-        #Deadstock warning
+            with st.expander("Low stocks pending actions"):
+                for category, group in low_stock.groupby("Category"):
+                    with st.expander(f"{category}"):
+                        for _, row in group.iterrows():
+                            st.write(f"{row['Product Name']} - runs out in {row['Days_Remaining']:.0f} days")
+
+    with tab2:
+        # Deadstock warning
         deadstock = metrics[metrics["Tracking"] == "Deadstock"]
 
         if deadstock.empty:
@@ -82,18 +89,40 @@ if 'metrics' in st.session_state:
                         for _, row in group.iterrows():
                             st.write(f"{row['Product Name']} is not moving. Consider a Discount or Promotion.")
 
-    # Category-by Profit
-    st.subheader("Category-wise Gross Profit")
-    category_profit = metrics.groupby("Category")["Gross Profit"].sum()
-    st.bar_chart(category_profit)
+    with tab3:
+        # Category-by Profit
+        st.subheader("Category-wise Gross Profit")
+        category_profit = metrics.groupby("Category")["Gross Profit"].sum()
+        st.bar_chart(category_profit)
 
-    st.subheader('Weekly Trend')
-    st.line_chart(weekly_trend.set_index('Date')['Units Sold'])
+        # Weekly Trends
+        st.subheader('Weekly Trend')
+        st.line_chart(weekly_trend.set_index('Date')['Units Sold'])
 
 
-    # Data Read/Display
-    st.subheader("Retail Analytics")
-    st.dataframe(metrics[["Product Name", "Tracking", "Category", "Stock Status"]])
-    st.subheader("Raw Inventory Data")
-    st.dataframe(report)
+        #Top best 5 and top worst 5 products
+        Top_best = metrics.sort_values(by="Gross Profit", ascending=False).head(5)
+        Top_worst = metrics.sort_values(by="Gross Profit", ascending=True).head(5)
+
+        Top_best["Gross Profit"] = Top_best["Gross Profit"].apply(lambda x: f"₹{x:,.0f}")
+        Top_worst["Gross Profit"] = Top_worst["Gross Profit"].apply(lambda x: f"₹{x:,.0f}")
+
+        col1, col2 = st.columns(2)
+        with col1:
+            st.subheader("Top 5 Best Performing Products!")
+            st.dataframe(Top_best[["Product Name", "Gross Profit"]], hide_index=True)
+        with col2:
+            st.subheader("Bottom 5 Worst Performing Products!")
+            st.dataframe(Top_worst[["Product Name", "Gross Profit"]], hide_index=True)
+
+
+    # Data
+    tab1, tab2 = st.tabs(["Retail Analytics", "Your Raw Inventory Data"])
+    with tab1:
+        # Data Read/Display
+        st.subheader("Retail Analytics")
+        st.dataframe(metrics[["Product Name", "Tracking", "Category", "Stock Status"]])
+    with tab2:
+        st.subheader("Raw Inventory Data")
+        st.dataframe(report)
 
