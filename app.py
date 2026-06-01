@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+
+
 from upload import upload
 
 
@@ -36,16 +38,47 @@ if 'metrics' in st.session_state:
     report = st.session_state['report']
     weekly_trend = st.session_state['weekly_trend']
 
+    thres = st.number_input(
+        "Enter when you want to be alerted for low stock", value=7
+    )
 
     counts = metrics["Tracking"].value_counts()
+    fast_moving = metrics[metrics["Tracking"] == "Fast Moving"]
+    deadstock = metrics[metrics["Tracking"] == "Deadstock"]
+    slow_moving = metrics[metrics["Tracking"] == "Slow Moving"]
+    low_stock = metrics[metrics["Days_Remaining"] < thres]
+    deadstock = metrics[metrics["Tracking"] == "Deadstock"]
+    category_profit = metrics.groupby("Category")["Gross Profit"].sum()
+
+    # AI Summary for the app
+    st.info(f"""
+    Your store has {counts.get('Fast Moving', 0)} fast-moving products, 
+    {counts.get('Slow Moving', 0)} slow-moving, and {counts.get('Deadstock', 0)} deadstock items.
+    {len(low_stock)} products need restocking within {thres} days.
+    Your most profitable category is {category_profit.idxmax()}.
+    Total revenue this period: ₹{metrics['Revenue'].sum():,.0f} with a profit margin of {metrics['Profit Margin'].mean():.1f}%.
+    """)
 
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.metric("Fast-Moving", counts.get("Fast_Moving", 0))
+        st.metric("Fast-Moving", counts.get("Fast Moving", 0))
+        with st.expander("View Products"):
+            for _, row in fast_moving.iterrows():
+                st.write(f"{row['Product Name']}")
+            st.write(">>These are your best selling products based on your sales per day.")
     with col2:
-        st.metric("Slow-Moving", counts.get("Slow_Moving", 0))
+        st.metric("Slow-Moving", counts.get("Slow Moving", 0))
+        with st.expander("View Products"):
+            for _, row in slow_moving.iterrows():
+                st.write(f"{row['Product Name']} ")
+            st.write(">>These products are selling slower than your store average")
     with col3:
         st.metric("Deadstock", counts.get("Deadstock", 0))
+        with st.expander("View Products"):
+            for _, row in deadstock.iterrows():
+                st.write(f"{row['Product Name']}")
+            st.write("These products have the lowest sales in your store. Consider a discount or promotion.")
+
 
 
     # Sidebar
@@ -54,19 +87,14 @@ if 'metrics' in st.session_state:
     st.sidebar.metric("Profit Margin", f'{metrics['Profit Margin'].mean():.1f}%')
 
 
-    thres = st.number_input(
-        "Enter when you want to be alerted for low stock", value=7
-    )
-
     # Analytics
     tab1, tab2, tab3 = st.tabs(['Low-stock','Deadstock', 'Analytics'])
     with tab1:
         # Low stock warning
-        low_stock = metrics[metrics["Days_Remaining"] < thres]
         if low_stock.empty:
             st.success("No stocks needed.")
         else:
-            st.warning(f'{len(low_stock)} items in the inventory need your attention.')
+            st.warning(f'{len(low_stock)} items in the inventory needs restock action.')
 
             with st.expander("Low stocks pending actions"):
                 for category, group in low_stock.groupby("Category"):
@@ -76,8 +104,6 @@ if 'metrics' in st.session_state:
 
     with tab2:
         # Deadstock warning
-        deadstock = metrics[metrics["Tracking"] == "Deadstock"]
-
         if deadstock.empty:
             st.success("No deadstocks.")
         else:
@@ -92,7 +118,6 @@ if 'metrics' in st.session_state:
     with tab3:
         # Category-by Profit
         st.subheader("Category-wise Gross Profit")
-        category_profit = metrics.groupby("Category")["Gross Profit"].sum()
         st.bar_chart(category_profit)
 
         # Weekly Trends
@@ -125,4 +150,6 @@ if 'metrics' in st.session_state:
     with tab2:
         st.subheader("Raw Inventory Data")
         st.dataframe(report)
+
+
 
