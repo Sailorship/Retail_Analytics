@@ -23,9 +23,7 @@ column_mapping = {
     "Product_Name": "Product Name",
 }
 
-required_columns = ["Product Name", "Category", "Units Sold", "Opening Stock", "Closing Stock", "Purchase Price",
-                    "Sale Price", "Date"]
-
+required_columns = ["Product Name", "Category", "Units Sold", "Opening Stock", "Closing Stock", "Purchase Price", "Sale Price", "Date"]
 
 def upload(report):
     report.columns = report.columns.str.strip()
@@ -36,31 +34,37 @@ def upload(report):
         return None, None, missing
 
     report['Date'] = pd.to_datetime(report['Date'])
-    days = max((report['Date'].max() - report['Date'].min()).days, 1)
+
+    trading_days = report['Date'].nunique()
+    days = max(trading_days, 1)
+
     report = report.sort_values(by='Date', ascending=True)
 
     weekly_trend = report.groupby('Date')['Units Sold'].sum().reset_index()
     weekly_trend = weekly_trend.sort_values('Date')
 
     # Group by Product Name
-    report = report.groupby("Product Name").agg({
+    agg_dict = {
         "Category": "first",
         "Units Sold": "sum",
         "Opening Stock": "first",
         "Closing Stock": "last",
-        "Purchase Quantity": "sum",
         "Purchase Price": "mean",
         "Sale Price": "mean"
-    }).reset_index()
+    }
+    if "Purchase Quantity" in report.columns:
+        agg_dict["Purchase Quantity"] = "sum"
+
+    report = report.groupby("Product Name").agg(agg_dict).reset_index()
 
     COGS = report['Units Sold'] * report['Purchase Price']
     metrics = report[["Product Name", "Category"]].copy()
+
 
     pd.set_option('display.max_columns', None)
     pd.set_option('display.width', 1000)
 
     metrics["Sales_Velocity"] = (report["Units Sold"] / days)
-
     avg_inv = (report['Opening Stock'] + report['Closing Stock']) / 2
     metrics["Inventory_TR"] = COGS / avg_inv.replace(0, np.nan)
 
@@ -73,16 +77,26 @@ def upload(report):
     )
     metrics["Days_Remaining"] = metrics["Days_Remaining"].clip(lower=0)
     metrics["Stock Status"] = metrics["Days_Remaining"].apply(
-        lambda x: "Out of Stock" if x == 0 else (
-            "No Sales" if x == float('inf') else f"{int(x)} {'day' if x == 1 else 'days'}")
+        lambda x: "Out of Stock" if x == 0 else ("No Sales" if x == float('inf') else f"{int(x)} {'day' if x == 1 else 'days'}")
     )
 
-    metrics["Tracking"] = pd.qcut(
-        metrics["Sales_Velocity"],
-        q=3,
-        labels=["Deadstock", "Slow Moving", "Fast Moving"]
-    )
+    selling = metrics[metrics["Sales_Velocity"] > 0]["Sales_Velocity"]
+    median_velocity = selling.median() if not selling.empty else 1
+
+    def classify(velocity):
+        if velocity == 0:
+            return "Deadstock"
+        elif velocity < median_velocity:
+            return "Slow Moving"
+        else:
+            return "Fast Moving"
+
+    metrics["Tracking"] = metrics["Sales_Velocity"].apply(classify)
+
+
     return metrics, weekly_trend, missing
+
+
 
 
 

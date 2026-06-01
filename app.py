@@ -39,7 +39,7 @@ if 'metrics' in st.session_state:
     weekly_trend = st.session_state['weekly_trend']
 
     thres = st.number_input(
-        "Enter when you want to be alerted for low stock", value=7
+        'Alert me when the stock is less than ___ days away.', value=7
     )
 
     counts = metrics["Tracking"].value_counts()
@@ -47,11 +47,11 @@ if 'metrics' in st.session_state:
     deadstock = metrics[metrics["Tracking"] == "Deadstock"]
     slow_moving = metrics[metrics["Tracking"] == "Slow Moving"]
     low_stock = metrics[metrics["Days_Remaining"] < thres]
-    deadstock = metrics[metrics["Tracking"] == "Deadstock"]
     category_profit = metrics.groupby("Category")["Gross Profit"].sum()
 
     # AI Summary for the app
     st.info(f"""
+    >Summary:\n
     Your store has {counts.get('Fast Moving', 0)} fast-moving products, 
     {counts.get('Slow Moving', 0)} slow-moving, and {counts.get('Deadstock', 0)} deadstock items.
     {len(low_stock)} products need restocking within {thres} days.
@@ -75,9 +75,12 @@ if 'metrics' in st.session_state:
     with col3:
         st.metric("Deadstock", counts.get("Deadstock", 0))
         with st.expander("View Products"):
-            for _, row in deadstock.iterrows():
-                st.write(f"{row['Product Name']}")
-            st.write("These products have the lowest sales in your store. Consider a discount or promotion.")
+            if deadstock.empty:
+                st.write(">>No Deadstock at the moment.")
+            else:
+                for _, row in deadstock.iterrows():
+                    st.write(f"{row['Product Name']}")
+                st.write(">>These products have the lowest sales in your store. Consider a discount or promotion.")
 
 
 
@@ -100,10 +103,19 @@ if 'metrics' in st.session_state:
                 for category, group in low_stock.groupby("Category"):
                     with st.expander(f"{category}"):
                         for _, row in group.iterrows():
-                            st.write(f"{row['Product Name']} - runs out in {row['Days_Remaining']:.0f} days")
+                            if row["Stock Status"] == "Out of Stock":
+                                if row["Tracking"] == "Fast Moving":
+                                    st.error(
+                                        f"{row['Product Name']} — Out of stock. Restock immediately, this is a fast seller.")
+                                elif row["Tracking"] == "Slow Moving":
+                                    st.warning(
+                                        f"{row['Product Name']} — Out of stock. Consider restocking based on demand.")
+                            else:
+                                st.write(f"{row['Product Name']} — runs out in {row['Days_Remaining']:.0f} days")
 
     with tab2:
         # Deadstock warning
+        deadstock = metrics[metrics["Tracking"] == "Deadstock"]
         if deadstock.empty:
             st.success("No deadstocks.")
         else:
