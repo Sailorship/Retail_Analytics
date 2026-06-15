@@ -25,7 +25,7 @@ column_mapping = {
 
 required_columns = ["Product Name", "Category", "Units Sold", "Opening Stock", "Closing Stock", "Purchase Price", "Sale Price", "Date"]
 
-def upload(report):
+def upload(report, lead_time):
     report.columns = report.columns.str.strip()
     report = report.rename(columns=column_mapping)
 
@@ -43,6 +43,7 @@ def upload(report):
     weekly_trend = report.groupby('Date')['Units Sold'].sum().reset_index()
     weekly_trend = weekly_trend.sort_values('Date')
 
+
     # Group by Product Name
     agg_dict = {
         "Category": "first",
@@ -58,7 +59,7 @@ def upload(report):
     report = report.groupby("Product Name").agg(agg_dict).reset_index()
 
     COGS = report['Units Sold'] * report['Purchase Price']
-    metrics = report[["Product Name", "Category"]].copy()
+    metrics = report[["Product Name", "Category", "Closing Stock"]].copy()
 
 
     pd.set_option('display.max_columns', None)
@@ -76,9 +77,18 @@ def upload(report):
         lambda row: 0 if row['Revenue'] == 0 else (row['Gross Profit'] / row['Revenue']) * 100, axis=1
     )
     metrics["Days_Remaining"] = metrics["Days_Remaining"].clip(lower=0)
-    metrics["Stock Status"] = metrics["Days_Remaining"].apply(
-        lambda x: "Out of Stock" if x == 0 else ("No Sales" if x == float('inf') else f"{int(x)} {'day' if x == 1 else 'days'}")
-    )
+
+    sales_std = report.groupby("Product Name")["Units Sold"].std().fillna(0)
+    metrics["Sales_StdDev"] = metrics["Product Name"].map(sales_std)
+
+    metrics["Safety_Stock"] = (1.65 * metrics["Sales_StdDev"] * (lead_time ** 0.5)).round(0)
+    metrics["Reorder_Point"] = ((metrics["Sales_Velocity"] * lead_time) + metrics["Safety_Stock"]).round(0)
+    metrics["Reorder_Qty"] = ((metrics["Sales_Velocity"] * 30) - metrics["Closing Stock"]).clip(lower=0).round(0)
+    metrics["Stock Status"] = metrics.apply(lambda row:
+                                            "Out of Stock" if row["Closing Stock"] <= 0 else
+                                            "Order Now" if row["Closing Stock"] <= row["Reorder_Point"] else
+                                            "Healthy", axis=1
+                                            )
 
     selling = metrics[metrics["Sales_Velocity"] > 0]["Sales_Velocity"]
     median_velocity = selling.median() if not selling.empty else 1
@@ -93,8 +103,9 @@ def upload(report):
 
     metrics["Tracking"] = metrics["Sales_Velocity"].apply(classify)
 
-
     return metrics, weekly_trend, missing
+
+
 
 
 

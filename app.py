@@ -12,7 +12,7 @@ uploaded = st.file_uploader(
     type=["csv", "xlsx"]
 )
 submit = st.button("Submit")
-
+lead_time = st.number_input("How many days does your supplier take to deliver?", value=2, min_value=1)
 
 if uploaded is not None and submit:
 
@@ -22,7 +22,7 @@ if uploaded is not None and submit:
     else:
         report = pd.read_excel(uploaded)
 
-    metrics, weekly_trend, missing_cols = upload(report)
+    metrics, weekly_trend, missing_cols = upload(report, lead_time)
     if metrics is None:
         st.error(f"Your file is missing required columns: {', '.join(missing_cols)}. Please check your export format.")
         st.stop()
@@ -42,12 +42,14 @@ if 'metrics' in st.session_state:
         'Alert me when the stock is less than ___ days away.', value=7
     )
 
+
     counts = metrics["Tracking"].value_counts()
     fast_moving = metrics[metrics["Tracking"] == "Fast Moving"]
     deadstock = metrics[metrics["Tracking"] == "Deadstock"]
     slow_moving = metrics[metrics["Tracking"] == "Slow Moving"]
-    low_stock = metrics[metrics["Days_Remaining"] < thres]
+    low_stock = metrics[metrics["Closing Stock"] <= metrics["Reorder_Point"]]
     category_profit = metrics.groupby("Category")["Gross Profit"].sum()
+    reorder_qty = (metrics["Sales_Velocity"] * thres) + metrics["Safety_Stock"]
 
     # AI Summary for the app
     st.info(f"""
@@ -91,27 +93,52 @@ if 'metrics' in st.session_state:
 
 
     # Analytics
+
     tab1, tab2, tab3 = st.tabs(['Low-stock','Deadstock', 'Analytics'])
     with tab1:
-        # Low stock warning
         if low_stock.empty:
-            st.success("No stocks needed.")
+            st.success("All stock levels are healthy. No restocking needed.")
         else:
-            st.warning(f'{len(low_stock)} items in the inventory needs restock action.')
-
+            st.warning(f"{len(low_stock)} items in the inventory need restock action.")
             with st.expander("Low stocks pending actions"):
                 for category, group in low_stock.groupby("Category"):
-                    with st.expander(f"{category}"):
-                        for _, row in group.iterrows():
-                            if row["Stock Status"] == "Out of Stock":
-                                if row["Tracking"] == "Fast Moving":
-                                    st.error(
-                                        f"{row['Product Name']} — Out of stock. Restock immediately, this is a fast seller.")
-                                elif row["Tracking"] == "Slow Moving":
-                                    st.warning(
-                                        f"{row['Product Name']} — Out of stock. Consider restocking based on demand.")
+                    st.markdown(f"**{category}**")
+                    for _, row in group.iterrows():
+                        name = row["Product Name"]
+                        stock = int(row["Closing Stock"])
+                        days = row["Days_Remaining"]
+                        qty = int(row["Reorder_Qty"])
+                        tracking = row["Tracking"]
+                        status = row["Stock Status"]
+
+                        if status == "Out of Stock":
+                            if tracking == "Fast Moving":
+                                st.error(
+                                    f"**{name}** — Out of Stock.\n\n"
+                                    f"Fast seller — restock immediately.\n\n"
+                                    f"Order **{qty} units** to cover the next 30 days."
+                                )
                             else:
-                                st.write(f"{row['Product Name']} — runs out in {row['Days_Remaining']:.0f} days")
+                                st.warning(
+                                    f"**{name}** — Out of Stock.\n\n"
+                                    f"Slow seller — restock only if needed.\n\n"
+                                    f"Order **{qty} units** to cover the next 30 days."
+                                )
+                        elif status == "Order Now":
+                            days_text = f"Runs out in {int(days)} days" if days > 0 else "Very low stock"
+                            st.error(
+                                f"**{name}** — Order Now.\n\n"
+                                f"Stock: {stock} units | {days_text}\n\n"
+                                f"Order **{qty} units** to cover the next 30 days."
+                            )
+                        else:
+                            days_text = f"Runs out in {int(days)} days" if days > 0 else "Out of Stock"
+                            st.warning(
+                                f"**{name}** — Order Soon.\n\n"
+                                f"Stock: {stock} units | {days_text}\n\n"
+                                f"Order **{qty} units** to cover the next 30 days."
+                            )
+
 
     with tab2:
         # Deadstock warning
@@ -162,6 +189,7 @@ if 'metrics' in st.session_state:
     with tab2:
         st.subheader("Raw Inventory Data")
         st.dataframe(report)
+
 
 
 
