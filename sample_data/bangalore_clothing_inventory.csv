@@ -1,0 +1,241 @@
+Product Name,Category,Opening Stock,Closing Stock,Units Sold,Purchase Price,Sale Price,Purchase Quantity,Supplier Name,Date
+Kurta Pyjama Set,Men's Wear,100,109,11,850,1200,20,Sundaram Textiles,2026-01-01
+Kurta Pyjama Set,Men's Wear,109,95,14,850,1200,0,Sundaram Textiles,2026-01-08
+Kurta Pyjama Set,Men's Wear,95,90,5,850,1200,0,Sundaram Textiles,2026-01-15
+Kurta Pyjama Set,Men's Wear,90,85,5,850,1200,0,Sundaram Textiles,2026-01-22
+Kurta Pyjama Set,Men's Wear,85,104,4,850,1200,23,Sundaram Textiles,2026-01-29
+Kurta Pyjama Set,Men's Wear,104,101,3,850,1200,0,Sundaram Textiles,2026-02-05
+Kurta Pyjama Set,Men's Wear,101,82,19,850,1200,0,Sundaram Textiles,2026-02-12
+Kurta Pyjama Set,Men's Wear,82,5,77,850,1200,0,Sundaram Textiles,2026-02-19
+Cotton Dhoti,Men's Wear,61,76,11,350,500,26,Sundaram Textiles,2026-01-01
+Cotton Dhoti,Men's Wear,76,63,13,350,500,0,Sundaram Textiles,2026-01-08
+Cotton Dhoti,Men's Wear,63,61,2,350,500,0,Sundaram Textiles,2026-01-15
+Cotton Dhoti,Men's Wear,61,56,5,350,500,0,Sundaram Textiles,2026-01-22
+Cotton Dhoti,Men's Wear,56,75,8,350,500,27,Sundaram Textiles,2026-01-29
+Cotton Dhoti,Men's Wear,75,66,9,350,500,0,Sundaram Textiles,2026-02-05
+Cotton Dhoti,Men's Wear,66,47,19,350,500,0,Sundaram Textiles,2026-02-12
+Cotton Dhoti,Men's Wear,47,33,14,350,500,0,Sundaram Textiles,2026-02-19
+Nehru Jacket,Men's Wear,60,93,0,1100,1550,33,Royal Garments,2026-01-01
+Nehru Jacket,Men's Wear,93,92,1,1100,1550,0,Royal Garments,2026-01-08
+Nehru Jacket,Men's Wear,92,91,1,1100,1550,0,Royal Garments,2026-01-15
+Nehru Jacket,Men's Wear,91,91,0,1100,1550,0,Royal Garments,2026-01-22
+Nehru Jacket,Men's Wear,91,121,0,1100,1550,30,Royal Garments,2026-01-29
+Nehru Jacket,Men's Wear,121,121,0,1100,1550,0,Royal Garments,2026-02-05
+Nehru Jacket,Men's Wear,121,121,0,1100,1550,0,Royal Garments,2026-02-12
+Nehru Jacket,Men's Wear,121,120,1,1100,1550,0,Royal Garments,2026-02-19
+Linen Shirt,Men's Wear,66,82,15,600,850,31,Royal Garments,2026-01-01
+Linen Shirt,Men's Wear,82,63,19,600,850,0,Royal Garments,2026-01-08
+Linen Shirt,Men's Wear,63,57,6,600,850,0,Royal Garments,2026-01-15
+Linen Shirt,Men's Wear,57,55,2,600,850,0,Royal Garments,2026-01-22
+Linen Shirt,Men's Wear,55,83,9,600,850,37,Royal Garments,2026-01-29
+Linen Shirt,Men's Wear,83,80,3,600,850,0,Royal Garments,2026-02-05
+Linen Shirt,Men's Wear,80,64,16,600,850,0,Royal Garments,2026-02-12
+Linen Shirt,Men's Wear,64,53,11,600,850,0,Royal Garments,2026-02-19
+Bandhgala Suit,Men's Wear,95,121,14,1800,2500,40,Raj Fabrics,2026-01-01
+Bandhgala Suit,Men's Wear,121,102,19,1800,2500,0,Raj Fabrics,2026-01-08
+Bandhgala Suit,Men's Wear,102,95,7,1800,2500,0,Raj Fabrics,2026-01-15
+Bandhgala Suit,Men's Wear,95,90,5,1800,2500,0,Raj Fabrics,2026-01-22
+Bandhgala Suit,Men's Wear,90,108,3,1800,2500,21,Raj Fabrics,2026-01-29
+Bandhgala Suit,Men's Wear,108,103,5,1800,2500,0,Raj Fabrics,2026-02-05
+Bandhgala Suit,Men's Wear,103,89,14,1800,2500,0,Raj Fabrics,2026-02-12
+Bandhgala Suit,Men's Wear,89,78,11,1800,2500,0,Raj Fabrics,2026-02-19
+Lungi (Checked),Men's Wear,74,106,0,250,350,32,Raj Fabrics,2026-01-01
+Lungi (Checked),Men's Wear,106,105,1,250,350,0,Raj Fabrics,2026-01-08
+Lungi (Checked),Men's Wear,105,104,1,250,350,0,Raj Fabrics,2026-01-15
+Lungi (Checked),Men's Wear,104,102,2,250,350,0,Raj Fabrics,2026-01-22
+Lungi (Checked),Men's Wear,102,126,1,250,350,25,Raj Fabrics,2026-01-29
+Lungi (Checked),Men's Wear,126,125,1,250,350,0,Raj Fabrics,2026-02-05
+Lungi (Checked),Men's Wear,125,124,1,250,350,0,Raj Fabrics,2026-02-12
+Lungi (Checked),Men's Wear,124,124,0,250,350,0,Raj Fabrics,2026-02-19
+Silk Saree,Women's Wear,77,97,20,1500,2200,40,Nalli Silks,2026-01-01
+Silk Saree,Women's Wear,97,86,11,1500,2200,0,Nalli Silks,2026-01-08
+Silk Saree,Women's Wear,86,82,4,1500,2200,0,Nalli Silks,2026-01-15
+Silk Saree,Women's Wear,82,77,5,1500,2200,0,Nalli Silks,2026-01-22
+Silk Saree,Women's Wear,77,107,4,1500,2200,34,Nalli Silks,2026-01-29
+Silk Saree,Women's Wear,107,99,8,1500,2200,0,Nalli Silks,2026-02-05
+Silk Saree,Women's Wear,99,85,14,1500,2200,0,Nalli Silks,2026-02-12
+Silk Saree,Women's Wear,85,13,72,1500,2200,0,Nalli Silks,2026-02-19
+Cotton Salwar Kameez,Women's Wear,74,84,20,700,1000,30,Nalli Silks,2026-01-01
+Cotton Salwar Kameez,Women's Wear,84,74,10,700,1000,0,Nalli Silks,2026-01-08
+Cotton Salwar Kameez,Women's Wear,74,69,5,700,1000,0,Nalli Silks,2026-01-15
+Cotton Salwar Kameez,Women's Wear,69,67,2,700,1000,0,Nalli Silks,2026-01-22
+Cotton Salwar Kameez,Women's Wear,67,92,7,700,1000,32,Nalli Silks,2026-01-29
+Cotton Salwar Kameez,Women's Wear,92,86,6,700,1000,0,Nalli Silks,2026-02-05
+Cotton Salwar Kameez,Women's Wear,86,75,11,700,1000,0,Nalli Silks,2026-02-12
+Cotton Salwar Kameez,Women's Wear,75,62,13,700,1000,0,Nalli Silks,2026-02-19
+Anarkali Suit,Women's Wear,96,107,15,1200,1750,26,Meena Bazaar,2026-01-01
+Anarkali Suit,Women's Wear,107,87,20,1200,1750,0,Meena Bazaar,2026-01-08
+Anarkali Suit,Women's Wear,87,78,9,1200,1750,0,Meena Bazaar,2026-01-15
+Anarkali Suit,Women's Wear,78,70,8,1200,1750,0,Meena Bazaar,2026-01-22
+Anarkali Suit,Women's Wear,70,85,9,1200,1750,24,Meena Bazaar,2026-01-29
+Anarkali Suit,Women's Wear,85,79,6,1200,1750,0,Meena Bazaar,2026-02-05
+Anarkali Suit,Women's Wear,79,67,12,1200,1750,0,Meena Bazaar,2026-02-12
+Anarkali Suit,Women's Wear,67,54,13,1200,1750,0,Meena Bazaar,2026-02-19
+Lehenga Choli,Women's Wear,95,105,18,1800,2600,28,Meena Bazaar,2026-01-01
+Lehenga Choli,Women's Wear,105,86,19,1800,2600,0,Meena Bazaar,2026-01-08
+Lehenga Choli,Women's Wear,86,78,8,1800,2600,0,Meena Bazaar,2026-01-15
+Lehenga Choli,Women's Wear,78,70,8,1800,2600,0,Meena Bazaar,2026-01-22
+Lehenga Choli,Women's Wear,70,90,7,1800,2600,27,Meena Bazaar,2026-01-29
+Lehenga Choli,Women's Wear,90,86,4,1800,2600,0,Meena Bazaar,2026-02-05
+Lehenga Choli,Women's Wear,86,68,18,1800,2600,0,Meena Bazaar,2026-02-12
+Lehenga Choli,Women's Wear,68,6,62,1800,2600,0,Meena Bazaar,2026-02-19
+Kurti (Printed),Women's Wear,63,76,11,400,580,24,Trendz Collections,2026-01-01
+Kurti (Printed),Women's Wear,76,56,20,400,580,0,Trendz Collections,2026-01-08
+Kurti (Printed),Women's Wear,56,52,4,400,580,0,Trendz Collections,2026-01-15
+Kurti (Printed),Women's Wear,52,44,8,400,580,0,Trendz Collections,2026-01-22
+Kurti (Printed),Women's Wear,44,73,3,400,580,32,Trendz Collections,2026-01-29
+Kurti (Printed),Women's Wear,73,65,8,400,580,0,Trendz Collections,2026-02-05
+Kurti (Printed),Women's Wear,65,46,19,400,580,0,Trendz Collections,2026-02-12
+Kurti (Printed),Women's Wear,46,29,17,400,580,0,Trendz Collections,2026-02-19
+Palazzo Set,Women's Wear,93,116,14,550,800,37,Trendz Collections,2026-01-01
+Palazzo Set,Women's Wear,116,106,10,550,800,0,Trendz Collections,2026-01-08
+Palazzo Set,Women's Wear,106,103,3,550,800,0,Trendz Collections,2026-01-15
+Palazzo Set,Women's Wear,103,97,6,550,800,0,Trendz Collections,2026-01-22
+Palazzo Set,Women's Wear,97,113,7,550,800,23,Trendz Collections,2026-01-29
+Palazzo Set,Women's Wear,113,107,6,550,800,0,Trendz Collections,2026-02-05
+Palazzo Set,Women's Wear,107,91,16,550,800,0,Trendz Collections,2026-02-12
+Palazzo Set,Women's Wear,91,79,12,550,800,0,Trendz Collections,2026-02-19
+Pattu Pavadai,Women's Wear,89,117,0,900,1300,28,Nalli Silks,2026-01-01
+Pattu Pavadai,Women's Wear,117,115,2,900,1300,0,Nalli Silks,2026-01-08
+Pattu Pavadai,Women's Wear,115,115,0,900,1300,0,Nalli Silks,2026-01-15
+Pattu Pavadai,Women's Wear,115,113,2,900,1300,0,Nalli Silks,2026-01-22
+Pattu Pavadai,Women's Wear,113,153,0,900,1300,40,Nalli Silks,2026-01-29
+Pattu Pavadai,Women's Wear,153,152,1,900,1300,0,Nalli Silks,2026-02-05
+Pattu Pavadai,Women's Wear,152,150,2,900,1300,0,Nalli Silks,2026-02-12
+Pattu Pavadai,Women's Wear,150,148,2,900,1300,0,Nalli Silks,2026-02-19
+Boys Kurta Set,Kids Wear,98,109,13,450,650,24,Kidzone Suppliers,2026-01-01
+Boys Kurta Set,Kids Wear,109,94,15,450,650,0,Kidzone Suppliers,2026-01-08
+Boys Kurta Set,Kids Wear,94,90,4,450,650,0,Kidzone Suppliers,2026-01-15
+Boys Kurta Set,Kids Wear,90,88,2,450,650,0,Kidzone Suppliers,2026-01-22
+Boys Kurta Set,Kids Wear,88,116,7,450,650,35,Kidzone Suppliers,2026-01-29
+Boys Kurta Set,Kids Wear,116,114,2,450,650,0,Kidzone Suppliers,2026-02-05
+Boys Kurta Set,Kids Wear,114,103,11,450,650,0,Kidzone Suppliers,2026-02-12
+Boys Kurta Set,Kids Wear,103,9,94,450,650,0,Kidzone Suppliers,2026-02-19
+Girls Frock (Cotton),Kids Wear,75,92,10,380,550,27,Kidzone Suppliers,2026-01-01
+Girls Frock (Cotton),Kids Wear,92,73,19,380,550,0,Kidzone Suppliers,2026-01-08
+Girls Frock (Cotton),Kids Wear,73,70,3,380,550,0,Kidzone Suppliers,2026-01-15
+Girls Frock (Cotton),Kids Wear,70,67,3,380,550,0,Kidzone Suppliers,2026-01-22
+Girls Frock (Cotton),Kids Wear,67,80,9,380,550,22,Kidzone Suppliers,2026-01-29
+Girls Frock (Cotton),Kids Wear,80,76,4,380,550,0,Kidzone Suppliers,2026-02-05
+Girls Frock (Cotton),Kids Wear,76,64,12,380,550,0,Kidzone Suppliers,2026-02-12
+Girls Frock (Cotton),Kids Wear,64,44,20,380,550,0,Kidzone Suppliers,2026-02-19
+Baby Onesie Set,Kids Wear,90,97,18,300,430,25,Tiny Tots Textiles,2026-01-01
+Baby Onesie Set,Kids Wear,97,83,14,300,430,0,Tiny Tots Textiles,2026-01-08
+Baby Onesie Set,Kids Wear,83,75,8,300,430,0,Tiny Tots Textiles,2026-01-15
+Baby Onesie Set,Kids Wear,75,70,5,300,430,0,Tiny Tots Textiles,2026-01-22
+Baby Onesie Set,Kids Wear,70,94,5,300,430,29,Tiny Tots Textiles,2026-01-29
+Baby Onesie Set,Kids Wear,94,86,8,300,430,0,Tiny Tots Textiles,2026-02-05
+Baby Onesie Set,Kids Wear,86,66,20,300,430,0,Tiny Tots Textiles,2026-02-12
+Baby Onesie Set,Kids Wear,66,10,56,300,430,0,Tiny Tots Textiles,2026-02-19
+Girls Lehenga (Mini),Kids Wear,88,104,18,600,880,34,Tiny Tots Textiles,2026-01-01
+Girls Lehenga (Mini),Kids Wear,104,93,11,600,880,0,Tiny Tots Textiles,2026-01-08
+Girls Lehenga (Mini),Kids Wear,93,88,5,600,880,0,Tiny Tots Textiles,2026-01-15
+Girls Lehenga (Mini),Kids Wear,88,83,5,600,880,0,Tiny Tots Textiles,2026-01-22
+Girls Lehenga (Mini),Kids Wear,83,110,3,600,880,30,Tiny Tots Textiles,2026-01-29
+Girls Lehenga (Mini),Kids Wear,110,108,2,600,880,0,Tiny Tots Textiles,2026-02-05
+Girls Lehenga (Mini),Kids Wear,108,89,19,600,880,0,Tiny Tots Textiles,2026-02-12
+Girls Lehenga (Mini),Kids Wear,89,71,18,600,880,0,Tiny Tots Textiles,2026-02-19
+Boys Dhoti Kurta,Kids Wear,74,82,19,420,600,27,Kidzone Suppliers,2026-01-01
+Boys Dhoti Kurta,Kids Wear,82,72,10,420,600,0,Kidzone Suppliers,2026-01-08
+Boys Dhoti Kurta,Kids Wear,72,69,3,420,600,0,Kidzone Suppliers,2026-01-15
+Boys Dhoti Kurta,Kids Wear,69,67,2,420,600,0,Kidzone Suppliers,2026-01-22
+Boys Dhoti Kurta,Kids Wear,67,84,5,420,600,22,Kidzone Suppliers,2026-01-29
+Boys Dhoti Kurta,Kids Wear,84,82,2,420,600,0,Kidzone Suppliers,2026-02-05
+Boys Dhoti Kurta,Kids Wear,82,67,15,420,600,0,Kidzone Suppliers,2026-02-12
+Boys Dhoti Kurta,Kids Wear,67,56,11,420,600,0,Kidzone Suppliers,2026-02-19
+School Uniform Set,Kids Wear,92,120,0,500,700,28,Tiny Tots Textiles,2026-01-01
+School Uniform Set,Kids Wear,120,118,2,500,700,0,Tiny Tots Textiles,2026-01-08
+School Uniform Set,Kids Wear,118,117,1,500,700,0,Tiny Tots Textiles,2026-01-15
+School Uniform Set,Kids Wear,117,117,0,500,700,0,Tiny Tots Textiles,2026-01-22
+School Uniform Set,Kids Wear,117,139,2,500,700,24,Tiny Tots Textiles,2026-01-29
+School Uniform Set,Kids Wear,139,137,2,500,700,0,Tiny Tots Textiles,2026-02-05
+School Uniform Set,Kids Wear,137,135,2,500,700,0,Tiny Tots Textiles,2026-02-12
+School Uniform Set,Kids Wear,135,133,2,500,700,0,Tiny Tots Textiles,2026-02-19
+Silk Dupatta,Accessories,90,112,13,350,500,35,Bangalore Accessories Hub,2026-01-01
+Silk Dupatta,Accessories,112,96,16,350,500,0,Bangalore Accessories Hub,2026-01-08
+Silk Dupatta,Accessories,96,91,5,350,500,0,Bangalore Accessories Hub,2026-01-15
+Silk Dupatta,Accessories,91,88,3,350,500,0,Bangalore Accessories Hub,2026-01-22
+Silk Dupatta,Accessories,88,118,3,350,500,33,Bangalore Accessories Hub,2026-01-29
+Silk Dupatta,Accessories,118,111,7,350,500,0,Bangalore Accessories Hub,2026-02-05
+Silk Dupatta,Accessories,111,95,16,350,500,0,Bangalore Accessories Hub,2026-02-12
+Silk Dupatta,Accessories,95,79,16,350,500,0,Bangalore Accessories Hub,2026-02-19
+Cotton Stole,Accessories,89,119,10,200,290,40,Bangalore Accessories Hub,2026-01-01
+Cotton Stole,Accessories,119,99,20,200,290,0,Bangalore Accessories Hub,2026-01-08
+Cotton Stole,Accessories,99,96,3,200,290,0,Bangalore Accessories Hub,2026-01-15
+Cotton Stole,Accessories,96,94,2,200,290,0,Bangalore Accessories Hub,2026-01-22
+Cotton Stole,Accessories,94,116,8,200,290,30,Bangalore Accessories Hub,2026-01-29
+Cotton Stole,Accessories,116,113,3,200,290,0,Bangalore Accessories Hub,2026-02-05
+Cotton Stole,Accessories,113,100,13,200,290,0,Bangalore Accessories Hub,2026-02-12
+Cotton Stole,Accessories,100,8,92,200,290,0,Bangalore Accessories Hub,2026-02-19
+Embroidered Potli Bag,Accessories,94,101,17,450,650,24,Craft Bazaar,2026-01-01
+Embroidered Potli Bag,Accessories,101,85,16,450,650,0,Craft Bazaar,2026-01-08
+Embroidered Potli Bag,Accessories,85,81,4,450,650,0,Craft Bazaar,2026-01-15
+Embroidered Potli Bag,Accessories,81,75,6,450,650,0,Craft Bazaar,2026-01-22
+Embroidered Potli Bag,Accessories,75,93,9,450,650,27,Craft Bazaar,2026-01-29
+Embroidered Potli Bag,Accessories,93,90,3,450,650,0,Craft Bazaar,2026-02-05
+Embroidered Potli Bag,Accessories,90,73,17,450,650,0,Craft Bazaar,2026-02-12
+Embroidered Potli Bag,Accessories,73,55,18,450,650,0,Craft Bazaar,2026-02-19
+Oxidised Earrings Set,Accessories,66,106,0,250,380,40,Craft Bazaar,2026-01-01
+Oxidised Earrings Set,Accessories,106,104,2,250,380,0,Craft Bazaar,2026-01-08
+Oxidised Earrings Set,Accessories,104,104,0,250,380,0,Craft Bazaar,2026-01-15
+Oxidised Earrings Set,Accessories,104,104,0,250,380,0,Craft Bazaar,2026-01-22
+Oxidised Earrings Set,Accessories,104,129,0,250,380,25,Craft Bazaar,2026-01-29
+Oxidised Earrings Set,Accessories,129,128,1,250,380,0,Craft Bazaar,2026-02-05
+Oxidised Earrings Set,Accessories,128,127,1,250,380,0,Craft Bazaar,2026-02-12
+Oxidised Earrings Set,Accessories,127,126,1,250,380,0,Craft Bazaar,2026-02-19
+Silk Hair Scrunchie Pack,Accessories,73,78,16,200,280,21,Bangalore Accessories Hub,2026-01-01
+Silk Hair Scrunchie Pack,Accessories,78,66,12,200,280,0,Bangalore Accessories Hub,2026-01-08
+Silk Hair Scrunchie Pack,Accessories,66,58,8,200,280,0,Bangalore Accessories Hub,2026-01-15
+Silk Hair Scrunchie Pack,Accessories,58,56,2,200,280,0,Bangalore Accessories Hub,2026-01-22
+Silk Hair Scrunchie Pack,Accessories,56,76,8,200,280,28,Bangalore Accessories Hub,2026-01-29
+Silk Hair Scrunchie Pack,Accessories,76,67,9,200,280,0,Bangalore Accessories Hub,2026-02-05
+Silk Hair Scrunchie Pack,Accessories,67,53,14,200,280,0,Bangalore Accessories Hub,2026-02-12
+Silk Hair Scrunchie Pack,Accessories,53,13,40,200,280,0,Bangalore Accessories Hub,2026-02-19
+Bandhani Dupatta,Accessories,91,105,12,400,580,26,Craft Bazaar,2026-01-01
+Bandhani Dupatta,Accessories,105,91,14,400,580,0,Craft Bazaar,2026-01-08
+Bandhani Dupatta,Accessories,91,86,5,400,580,0,Craft Bazaar,2026-01-15
+Bandhani Dupatta,Accessories,86,84,2,400,580,0,Craft Bazaar,2026-01-22
+Bandhani Dupatta,Accessories,84,112,2,400,580,30,Craft Bazaar,2026-01-29
+Bandhani Dupatta,Accessories,112,110,2,400,580,0,Craft Bazaar,2026-02-05
+Bandhani Dupatta,Accessories,110,100,10,400,580,0,Craft Bazaar,2026-02-12
+Bandhani Dupatta,Accessories,100,81,19,400,580,0,Craft Bazaar,2026-02-19
+Kolhapuri Chappals,Footwear,90,108,18,700,1000,36,Step Right Footwear,2026-01-01
+Kolhapuri Chappals,Footwear,108,96,12,700,1000,0,Step Right Footwear,2026-01-08
+Kolhapuri Chappals,Footwear,96,94,2,700,1000,0,Step Right Footwear,2026-01-15
+Kolhapuri Chappals,Footwear,94,91,3,700,1000,0,Step Right Footwear,2026-01-22
+Kolhapuri Chappals,Footwear,91,109,4,700,1000,22,Step Right Footwear,2026-01-29
+Kolhapuri Chappals,Footwear,109,106,3,700,1000,0,Step Right Footwear,2026-02-05
+Kolhapuri Chappals,Footwear,106,86,20,700,1000,0,Step Right Footwear,2026-02-12
+Kolhapuri Chappals,Footwear,86,73,13,700,1000,0,Step Right Footwear,2026-02-19
+Jutti (Embroidered),Footwear,85,112,11,850,1200,38,Step Right Footwear,2026-01-01
+Jutti (Embroidered),Footwear,112,99,13,850,1200,0,Step Right Footwear,2026-01-08
+Jutti (Embroidered),Footwear,99,97,2,850,1200,0,Step Right Footwear,2026-01-15
+Jutti (Embroidered),Footwear,97,94,3,850,1200,0,Step Right Footwear,2026-01-22
+Jutti (Embroidered),Footwear,94,124,8,850,1200,38,Step Right Footwear,2026-01-29
+Jutti (Embroidered),Footwear,124,117,7,850,1200,0,Step Right Footwear,2026-02-05
+Jutti (Embroidered),Footwear,117,103,14,850,1200,0,Step Right Footwear,2026-02-12
+Jutti (Embroidered),Footwear,103,15,88,850,1200,0,Step Right Footwear,2026-02-19
+Rubber Hawai Slippers,Footwear,80,108,0,200,290,28,Sole Traders,2026-01-01
+Rubber Hawai Slippers,Footwear,108,107,1,200,290,0,Sole Traders,2026-01-08
+Rubber Hawai Slippers,Footwear,107,107,0,200,290,0,Sole Traders,2026-01-15
+Rubber Hawai Slippers,Footwear,107,105,2,200,290,0,Sole Traders,2026-01-22
+Rubber Hawai Slippers,Footwear,105,132,2,200,290,29,Sole Traders,2026-01-29
+Rubber Hawai Slippers,Footwear,132,131,1,200,290,0,Sole Traders,2026-02-05
+Rubber Hawai Slippers,Footwear,131,130,1,200,290,0,Sole Traders,2026-02-12
+Rubber Hawai Slippers,Footwear,130,130,0,200,290,0,Sole Traders,2026-02-19
+Ladies Ethnic Sandals,Footwear,60,82,17,600,880,39,Sole Traders,2026-01-01
+Ladies Ethnic Sandals,Footwear,82,63,19,600,880,0,Sole Traders,2026-01-08
+Ladies Ethnic Sandals,Footwear,63,60,3,600,880,0,Sole Traders,2026-01-15
+Ladies Ethnic Sandals,Footwear,60,57,3,600,880,0,Sole Traders,2026-01-22
+Ladies Ethnic Sandals,Footwear,57,88,5,600,880,36,Sole Traders,2026-01-29
+Ladies Ethnic Sandals,Footwear,88,82,6,600,880,0,Sole Traders,2026-02-05
+Ladies Ethnic Sandals,Footwear,82,70,12,600,880,0,Sole Traders,2026-02-12
+Ladies Ethnic Sandals,Footwear,70,55,15,600,880,0,Sole Traders,2026-02-19
+Kids Party Shoes,Footwear,64,82,13,550,780,31,Step Right Footwear,2026-01-01
+Kids Party Shoes,Footwear,82,68,14,550,780,0,Step Right Footwear,2026-01-08
+Kids Party Shoes,Footwear,68,64,4,550,780,0,Step Right Footwear,2026-01-15
+Kids Party Shoes,Footwear,64,55,9,550,780,0,Step Right Footwear,2026-01-22
+Kids Party Shoes,Footwear,55,88,6,550,780,39,Step Right Footwear,2026-01-29
+Kids Party Shoes,Footwear,88,86,2,550,780,0,Step Right Footwear,2026-02-05
+Kids Party Shoes,Footwear,86,66,20,550,780,0,Step Right Footwear,2026-02-12
+Kids Party Shoes,Footwear,66,48,18,550,780,0,Step Right Footwear,2026-02-19

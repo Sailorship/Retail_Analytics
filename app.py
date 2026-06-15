@@ -121,9 +121,9 @@ if 'metrics' in st.session_state:
                             else:
                                 st.warning(
                                     f"**{name}** — Out of Stock.\n\n"
-                                    f"Slow seller — restock only if needed.\n\n"
-                                    f"Order **{qty} units** to cover the next 30 days."
+                                    f"Consider restocking — order **{qty} units** to cover the next 30 days."
                                 )
+
                         elif status == "Order Now":
                             days_text = f"Runs out in {int(days)} days" if days > 0 else "Very low stock"
                             st.error(

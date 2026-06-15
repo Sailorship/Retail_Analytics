@@ -1,0 +1,151 @@
+Product Name,Category,Opening Stock,Closing Stock,Units Sold,Purchase Price,Sale Price,Purchase Quantity,Supplier Name,Stock Status,Date
+Rice,Grains,79,61,18,88,100,1,Fresh Mart Supply,Healthy,2026-03-10
+Salt,Essentials,33,23,10,54,65,10,City Wholesale,Healthy,2026-02-01
+Bread,Bakery,57,50,7,172,209,0,Fresh Mart Supply,Healthy,2026-02-27
+Milk,Dairy,91,79,12,56,64,0,Fresh Mart Supply,Overstock,2026-02-25
+Soap,Personal Care,60,54,6,98,118,15,Local Traders,Healthy,2026-03-19
+Salt,Essentials,18,5,13,121,166,52,Fresh Mart Supply,Low,2026-03-29
+Salt,Essentials,23,1,22,191,234,52,Local Traders,Low,2026-03-24
+Bread,Bakery,10,2,8,188,222,41,Fresh Mart Supply,Low,2026-03-12
+Biscuits,Snacks,8,1,7,166,221,21,Local Traders,Critical,2026-03-17
+Milk,Dairy,6,2,4,110,154,45,City Wholesale,Critical,2026-03-06
+Rice,Grains,23,0,23,79,100,31,Local Traders,Low,2026-03-10
+Cooking Oil,Essentials,59,53,6,22,25,6,Local Traders,Healthy,2026-02-02
+Tea,Beverages,21,0,21,127,140,59,Local Traders,Low,2026-03-07
+Tea,Beverages,10,2,8,22,29,44,Local Traders,Low,2026-03-11
+Biscuits,Snacks,50,37,13,140,155,10,Fresh Mart Supply,Healthy,2026-02-14
+Rice,Grains,13,2,11,36,47,29,Fresh Mart Supply,Low,2026-03-27
+Eggs,Dairy,9,1,8,119,150,29,City Wholesale,Low,2026-02-07
+Biscuits,Snacks,64,49,15,152,173,5,City Wholesale,Healthy,2026-02-19
+Biscuits,Snacks,38,19,19,191,211,14,City Wholesale,Healthy,2026-03-27
+Cooking Oil,Essentials,80,75,5,60,75,4,Fresh Mart Supply,Healthy,2026-03-06
+Milk,Dairy,19,4,15,165,198,37,City Wholesale,Low,2026-02-01
+Eggs,Dairy,5,1,4,31,43,25,Local Traders,Critical,2026-03-06
+Eggs,Dairy,1,0,1,88,112,25,City Wholesale,Critical,2026-02-10
+Milk,Dairy,64,55,9,156,178,15,Fresh Mart Supply,Healthy,2026-02-20
+Rice,Grains,66,46,20,107,130,7,City Wholesale,Healthy,2026-01-17
+Soap,Personal Care,23,3,20,198,253,23,Fresh Mart Supply,Low,2026-02-28
+Tea,Beverages,133,126,7,111,129,3,Fresh Mart Supply,Overstock,2026-01-25
+Bread,Bakery,33,15,18,116,145,15,City Wholesale,Healthy,2026-02-18
+Tea,Beverages,48,40,8,87,109,10,Local Traders,Healthy,2026-02-18
+Rice,Grains,17,5,12,139,177,40,Local Traders,Low,2026-03-24
+Cooking Oil,Essentials,58,42,16,83,115,14,City Wholesale,Healthy,2026-03-15
+Sugar,Essentials,33,23,10,51,56,15,City Wholesale,Healthy,2026-01-17
+Cooking Oil,Essentials,23,1,22,56,67,43,Local Traders,Low,2026-03-18
+Rice,Grains,68,54,14,200,255,0,Fresh Mart Supply,Healthy,2026-02-19
+Eggs,Dairy,10,3,7,92,106,46,Fresh Mart Supply,Low,2026-02-24
+Rice,Grains,23,0,23,62,72,37,City Wholesale,Low,2026-01-22
+Salt,Essentials,5,1,4,139,162,53,Local Traders,Critical,2026-01-14
+Cooking Oil,Essentials,25,3,22,69,87,24,City Wholesale,Low,2026-02-20
+Biscuits,Snacks,8,2,6,35,44,47,City Wholesale,Critical,2026-02-15
+Bread,Bakery,42,31,11,81,113,7,Local Traders,Healthy,2026-01-10
+Biscuits,Snacks,81,73,8,187,224,0,Local Traders,Overstock,2026-02-01
+Biscuits,Snacks,13,3,10,48,57,40,Local Traders,Low,2026-03-07
+Rice,Grains,12,2,10,77,94,52,City Wholesale,Low,2026-02-25
+Biscuits,Snacks,20,5,15,147,200,38,Local Traders,Low,2026-03-02
+Milk,Dairy,59,43,16,161,207,14,City Wholesale,Healthy,2026-02-15
+Sugar,Essentials,54,48,6,47,59,3,City Wholesale,Healthy,2026-03-27
+Tea,Beverages,14,2,12,66,81,50,Local Traders,Low,2026-01-01
+Bread,Bakery,2,0,2,28,32,34,Fresh Mart Supply,Critical,2026-02-25
+Eggs,Dairy,9,5,4,58,66,25,Local Traders,Low,2026-03-27
+Rice,Grains,43,31,12,80,107,10,City Wholesale,Healthy,2026-01-19
+Milk,Dairy,17,3,14,191,233,34,Local Traders,Low,2026-01-08
+Salt,Essentials,45,31,14,80,91,0,City Wholesale,Healthy,2026-03-24
+Salt,Essentials,56,40,16,114,147,13,Local Traders,Healthy,2026-03-19
+Sugar,Essentials,74,69,5,109,136,0,City Wholesale,Healthy,2026-02-07
+Milk,Dairy,41,26,15,133,181,6,Fresh Mart Supply,Healthy,2026-03-23
+Milk,Dairy,76,60,16,129,172,9,City Wholesale,Healthy,2026-03-12
+Salt,Essentials,31,18,13,27,36,5,Local Traders,Healthy,2026-02-16
+Bread,Bakery,75,67,8,89,101,2,Fresh Mart Supply,Healthy,2026-01-08
+Sugar,Essentials,46,28,18,43,55,3,City Wholesale,Healthy,2026-03-10
+Milk,Dairy,122,116,6,183,249,5,Fresh Mart Supply,Overstock,2026-02-26
+Eggs,Dairy,37,29,8,132,178,11,City Wholesale,Healthy,2026-01-24
+Bread,Bakery,56,45,11,81,111,13,Local Traders,Healthy,2026-01-11
+Bread,Bakery,21,4,17,119,160,24,Local Traders,Low,2026-01-16
+Soap,Personal Care,66,60,6,183,238,6,Fresh Mart Supply,Healthy,2026-02-09
+Soap,Personal Care,18,5,13,190,217,38,Local Traders,Low,2026-02-24
+Eggs,Dairy,57,50,7,59,68,1,City Wholesale,Healthy,2026-01-29
+Milk,Dairy,42,25,17,165,217,13,City Wholesale,Healthy,2026-03-10
+Tea,Beverages,43,36,7,132,147,9,City Wholesale,Healthy,2026-01-04
+Eggs,Dairy,12,0,12,154,174,23,Fresh Mart Supply,Low,2026-03-02
+Soap,Personal Care,72,62,10,184,239,13,City Wholesale,Healthy,2026-03-29
+Milk,Dairy,43,34,9,188,252,4,City Wholesale,Healthy,2026-03-26
+Soap,Personal Care,62,44,18,200,236,13,Local Traders,Healthy,2026-03-10
+Salt,Essentials,9,2,7,20,27,58,City Wholesale,Critical,2026-01-19
+Salt,Essentials,10,2,8,136,187,35,City Wholesale,Critical,2026-03-12
+Cooking Oil,Essentials,48,29,19,115,149,9,City Wholesale,Healthy,2026-03-14
+Soap,Personal Care,18,4,14,63,70,23,City Wholesale,Low,2026-01-13
+Cooking Oil,Essentials,7,0,7,65,89,59,Local Traders,Critical,2026-01-30
+Soap,Personal Care,38,30,8,144,199,7,City Wholesale,Healthy,2026-03-09
+Cooking Oil,Essentials,68,50,18,186,259,10,City Wholesale,Healthy,2026-03-03
+Bread,Bakery,76,70,6,196,246,4,Fresh Mart Supply,Healthy,2026-01-06
+Bread,Bakery,71,61,10,195,255,5,City Wholesale,Healthy,2026-02-01
+Salt,Essentials,103,89,14,144,180,0,Fresh Mart Supply,Overstock,2026-01-20
+Sugar,Essentials,73,54,19,77,86,15,Fresh Mart Supply,Healthy,2026-02-10
+Rice,Grains,21,0,21,42,59,48,Fresh Mart Supply,Low,2026-01-02
+Milk,Dairy,52,36,16,102,136,15,City Wholesale,Healthy,2026-03-17
+Tea,Beverages,9,4,5,52,67,32,City Wholesale,Low,2026-03-02
+Biscuits,Snacks,8,3,5,186,256,37,Fresh Mart Supply,Low,2026-03-11
+Sugar,Essentials,19,4,15,32,36,28,City Wholesale,Low,2026-01-02
+Soap,Personal Care,56,39,17,200,250,6,Local Traders,Healthy,2026-02-14
+Eggs,Dairy,56,36,20,49,60,11,City Wholesale,Healthy,2026-02-18
+Milk,Dairy,35,27,8,114,131,2,Local Traders,Healthy,2026-02-24
+Cooking Oil,Essentials,135,126,9,30,37,0,Fresh Mart Supply,Overstock,2026-03-06
+Biscuits,Snacks,76,61,15,114,137,10,City Wholesale,Healthy,2026-01-24
+Milk,Dairy,55,40,15,28,38,9,Fresh Mart Supply,Healthy,2026-03-31
+Sugar,Essentials,68,48,20,112,131,1,City Wholesale,Healthy,2026-03-02
+Bread,Bakery,45,25,20,162,189,9,Local Traders,Healthy,2026-01-26
+Cooking Oil,Essentials,51,31,20,180,222,8,Fresh Mart Supply,Healthy,2026-02-07
+Milk,Dairy,22,5,17,176,238,44,City Wholesale,Low,2026-03-14
+Soap,Personal Care,15,5,10,61,80,52,Fresh Mart Supply,Low,2026-03-28
+Soap,Personal Care,45,31,14,64,88,7,City Wholesale,Healthy,2026-02-23
+Milk,Dairy,25,5,20,114,141,60,Local Traders,Low,2026-01-22
+Tea,Beverages,12,4,8,97,119,30,Fresh Mart Supply,Low,2026-02-04
+Soap,Personal Care,42,28,14,68,87,1,Fresh Mart Supply,Healthy,2026-01-25
+Soap,Personal Care,41,31,10,105,135,5,Fresh Mart Supply,Healthy,2026-01-06
+Milk,Dairy,52,41,11,41,47,14,Fresh Mart Supply,Healthy,2026-01-23
+Milk,Dairy,147,145,2,175,227,5,Local Traders,Overstock,2026-02-23
+Bread,Bakery,49,39,10,135,179,11,City Wholesale,Healthy,2026-02-21
+Rice,Grains,17,2,15,130,171,30,City Wholesale,Low,2026-01-19
+Eggs,Dairy,77,58,19,149,170,6,Local Traders,Healthy,2026-03-09
+Bread,Bakery,77,69,8,44,52,5,City Wholesale,Healthy,2026-01-03
+Cooking Oil,Essentials,20,4,16,161,208,34,City Wholesale,Low,2026-02-25
+Milk,Dairy,5,0,5,96,113,29,City Wholesale,Critical,2026-01-27
+Eggs,Dairy,75,68,7,124,155,15,Local Traders,Healthy,2026-01-24
+Cooking Oil,Essentials,34,16,18,159,190,14,City Wholesale,Healthy,2026-01-04
+Bread,Bakery,38,19,19,139,188,3,City Wholesale,Healthy,2026-03-05
+Cooking Oil,Essentials,127,112,15,51,60,2,City Wholesale,Overstock,2026-02-02
+Sugar,Essentials,10,5,5,22,28,42,Fresh Mart Supply,Low,2026-02-27
+Cooking Oil,Essentials,41,29,12,65,84,10,Local Traders,Healthy,2026-02-27
+Bread,Bakery,9,2,7,129,156,30,Fresh Mart Supply,Critical,2026-03-15
+Tea,Beverages,7,0,7,199,245,20,City Wholesale,Critical,2026-01-30
+Cooking Oil,Essentials,68,56,12,59,82,11,Fresh Mart Supply,Healthy,2026-03-20
+Tea,Beverages,80,68,12,139,167,5,Local Traders,Overstock,2026-01-31
+Rice,Grains,47,37,10,145,167,5,Local Traders,Healthy,2026-03-09
+Bread,Bakery,47,30,17,160,199,12,City Wholesale,Healthy,2026-02-23
+Sugar,Essentials,121,107,14,54,61,5,Fresh Mart Supply,Overstock,2026-03-25
+Sugar,Essentials,6,2,4,126,149,49,City Wholesale,Critical,2026-03-03
+Soap,Personal Care,45,36,9,138,184,7,Local Traders,Healthy,2026-03-08
+Cooking Oil,Essentials,69,53,16,53,73,7,Local Traders,Healthy,2026-03-30
+Milk,Dairy,64,44,20,157,202,9,City Wholesale,Healthy,2026-01-25
+Tea,Beverages,4,0,4,179,208,32,Local Traders,Critical,2026-03-26
+Salt,Essentials,5,1,4,140,166,54,Fresh Mart Supply,Critical,2026-02-11
+Bread,Bakery,34,18,16,182,213,11,Local Traders,Healthy,2026-03-20
+Cooking Oil,Essentials,1,0,1,177,235,56,Local Traders,Critical,2026-03-24
+Soap,Personal Care,76,61,15,187,212,6,Fresh Mart Supply,Healthy,2026-03-24
+Biscuits,Snacks,67,53,14,71,91,9,Fresh Mart Supply,Healthy,2026-03-16
+Sugar,Essentials,142,135,7,150,191,1,Fresh Mart Supply,Overstock,2026-03-05
+Salt,Essentials,38,29,9,183,225,1,City Wholesale,Healthy,2026-02-16
+Biscuits,Snacks,14,4,10,104,115,34,Local Traders,Low,2026-03-20
+Bread,Bakery,57,48,9,169,212,12,City Wholesale,Healthy,2026-01-25
+Rice,Grains,70,58,12,191,219,1,Fresh Mart Supply,Healthy,2026-02-13
+Tea,Beverages,55,38,17,163,226,2,City Wholesale,Healthy,2026-02-09
+Biscuits,Snacks,103,88,15,167,205,2,Local Traders,Overstock,2026-02-15
+Salt,Essentials,9,4,5,131,169,49,City Wholesale,Low,2026-01-15
+Rice,Grains,69,63,6,122,136,3,Local Traders,Healthy,2026-02-12
+Eggs,Dairy,4,2,2,83,102,22,Local Traders,Critical,2026-03-06
+Eggs,Dairy,65,56,9,197,226,15,City Wholesale,Healthy,2026-03-03
+Soap,Personal Care,110,107,3,128,145,0,City Wholesale,Overstock,2026-02-14
+Milk,Dairy,58,46,12,162,185,7,Local Traders,Healthy,2026-01-22
+Milk,Dairy,5,0,5,98,111,35,Local Traders,Critical,2026-03-29
+Sugar,Essentials,53,45,8,81,102,9,Local Traders,Healthy,2026-01-09

@@ -1,0 +1,151 @@
+Product Name,Category,Opening Stock,Closing Stock,Units Sold,Purchase Price,Sale Price,Purchase Quantity,Supplier Name,Stock Status,Date
+Toothpaste,Personal Care,72,55,17,82,99,10,Town Supply,Healthy,2026-03-21
+LED Bulb,Electrical,23,5,18,38,51,23,Metro Distributors,Low,2026-01-13
+Pens,Stationery,63,58,5,160,211,6,Town Supply,Healthy,2026-01-20
+Detergent,Cleaning,100,89,11,168,217,2,Town Supply,Overstock,2026-01-09
+Pens,Stationery,35,22,13,148,166,13,Retail Hub,Healthy,2026-03-27
+Pens,Stationery,38,19,19,191,218,9,Retail Hub,Healthy,2026-03-13
+Mop,Household,10,1,9,63,73,34,Retail Hub,Critical,2026-02-28
+Mop,Household,60,48,12,134,163,12,Town Supply,Healthy,2026-02-11
+Dishwash Liquid,Cleaning,9,0,9,91,118,55,Retail Hub,Critical,2026-03-12
+Notebook,Stationery,11,2,9,194,221,50,Town Supply,Low,2026-01-18
+Pens,Stationery,11,3,8,55,74,25,Metro Distributors,Low,2026-03-20
+Battery,Electrical,123,119,4,100,138,3,Town Supply,Overstock,2026-01-11
+LED Bulb,Electrical,86,76,10,120,145,5,Metro Distributors,Overstock,2026-02-03
+LED Bulb,Electrical,72,61,11,136,153,6,Retail Hub,Healthy,2026-01-22
+Dishwash Liquid,Cleaning,5,2,3,100,116,25,Town Supply,Critical,2026-02-15
+LED Bulb,Electrical,76,57,19,60,66,0,Retail Hub,Healthy,2026-01-29
+Pens,Stationery,48,34,14,96,128,1,Retail Hub,Healthy,2026-01-31
+Pens,Stationery,32,16,16,95,129,4,Town Supply,Healthy,2026-03-27
+Battery,Electrical,78,59,19,63,70,4,Metro Distributors,Healthy,2026-01-19
+Detergent,Cleaning,150,135,15,160,220,4,Metro Distributors,Overstock,2026-01-08
+Shampoo,Personal Care,60,44,16,66,86,15,Metro Distributors,Healthy,2026-01-04
+Battery,Electrical,70,53,17,173,223,0,Retail Hub,Healthy,2026-01-24
+Detergent,Cleaning,48,38,10,147,163,4,Town Supply,Healthy,2026-03-20
+Pens,Stationery,9,1,8,92,124,27,Metro Distributors,Critical,2026-03-16
+Pens,Stationery,10,4,6,115,150,21,Metro Distributors,Low,2026-02-08
+Pens,Stationery,132,130,2,200,269,4,Town Supply,Overstock,2026-02-28
+LED Bulb,Electrical,54,46,8,165,209,12,Town Supply,Healthy,2026-01-14
+LED Bulb,Electrical,44,33,11,64,75,9,Retail Hub,Healthy,2026-03-28
+Detergent,Cleaning,8,3,5,163,192,25,Metro Distributors,Low,2026-02-11
+Plastic Bucket,Household,71,55,16,165,197,14,Town Supply,Healthy,2026-02-19
+Detergent,Cleaning,103,100,3,130,169,2,Metro Distributors,Overstock,2026-01-07
+Notebook,Stationery,102,91,11,186,256,0,Metro Distributors,Overstock,2026-02-09
+Mop,Household,16,1,15,61,73,30,Retail Hub,Low,2026-03-03
+Dishwash Liquid,Cleaning,48,34,14,119,132,2,Retail Hub,Healthy,2026-01-08
+Mop,Household,16,5,11,158,184,54,Retail Hub,Low,2026-03-30
+Battery,Electrical,32,23,9,92,109,10,Retail Hub,Healthy,2026-02-23
+Toothpaste,Personal Care,25,4,21,75,104,49,Town Supply,Low,2026-02-01
+Notebook,Stationery,47,29,18,178,222,10,Town Supply,Healthy,2026-03-08
+Notebook,Stationery,38,22,16,197,238,10,Retail Hub,Healthy,2026-02-16
+Battery,Electrical,85,82,3,183,238,4,Metro Distributors,Overstock,2026-02-11
+Toothpaste,Personal Care,74,59,15,190,251,7,Town Supply,Healthy,2026-02-06
+Dishwash Liquid,Cleaning,9,0,9,77,105,40,Retail Hub,Critical,2026-03-05
+Battery,Electrical,77,59,18,198,239,15,Town Supply,Healthy,2026-01-08
+Battery,Electrical,11,2,9,161,184,38,Town Supply,Low,2026-01-09
+Toothpaste,Personal Care,37,27,10,146,176,11,Retail Hub,Healthy,2026-01-09
+LED Bulb,Electrical,57,49,8,190,246,1,Retail Hub,Healthy,2026-02-26
+Detergent,Cleaning,15,5,10,74,93,31,Metro Distributors,Low,2026-03-24
+Notebook,Stationery,150,146,4,50,59,0,Retail Hub,Overstock,2026-01-31
+Pens,Stationery,6,2,4,102,114,47,Metro Distributors,Critical,2026-03-08
+Shampoo,Personal Care,10,2,8,182,254,24,Metro Distributors,Critical,2026-03-12
+Battery,Electrical,39,20,19,154,188,1,Metro Distributors,Healthy,2026-01-30
+Shampoo,Personal Care,8,2,6,68,79,25,Town Supply,Low,2026-03-18
+Notebook,Stationery,79,60,19,143,171,2,Metro Distributors,Healthy,2026-02-23
+Pens,Stationery,15,5,10,173,238,42,Retail Hub,Low,2026-01-26
+Plastic Bucket,Household,38,22,16,46,59,12,Retail Hub,Healthy,2026-01-11
+Pens,Stationery,25,3,22,101,133,56,Metro Distributors,Low,2026-03-12
+Mop,Household,3,1,2,124,164,44,Retail Hub,Critical,2026-02-27
+Dishwash Liquid,Cleaning,78,62,16,150,187,7,Retail Hub,Healthy,2026-03-02
+Mop,Household,10,3,7,100,117,24,Metro Distributors,Low,2026-03-12
+Mop,Household,21,0,21,29,36,31,Town Supply,Low,2026-02-12
+Notebook,Stationery,32,18,14,43,52,4,Town Supply,Healthy,2026-01-24
+Toothpaste,Personal Care,12,0,12,46,61,29,Retail Hub,Low,2026-01-10
+Mop,Household,122,112,10,69,89,3,Town Supply,Overstock,2026-02-09
+LED Bulb,Electrical,17,3,14,55,73,44,Town Supply,Low,2026-03-16
+Notebook,Stationery,44,25,19,33,44,7,Metro Distributors,Healthy,2026-02-18
+Battery,Electrical,50,32,18,50,59,0,Retail Hub,Healthy,2026-03-12
+LED Bulb,Electrical,72,59,13,115,139,10,Town Supply,Healthy,2026-03-21
+Pens,Stationery,34,29,5,128,152,6,Retail Hub,Healthy,2026-02-02
+Plastic Bucket,Household,51,34,17,53,71,5,Retail Hub,Healthy,2026-02-13
+Toothpaste,Personal Care,56,37,19,155,182,11,Town Supply,Healthy,2026-02-16
+Dishwash Liquid,Cleaning,77,61,16,193,213,14,Metro Distributors,Healthy,2026-01-20
+Notebook,Stationery,38,27,11,77,101,5,Metro Distributors,Healthy,2026-01-30
+Dishwash Liquid,Cleaning,1,0,1,174,241,28,Metro Distributors,Critical,2026-03-27
+Shampoo,Personal Care,67,55,12,176,204,5,Metro Distributors,Healthy,2026-01-10
+Pens,Stationery,15,0,15,198,223,56,Town Supply,Low,2026-02-23
+Mop,Household,32,26,6,199,220,8,Retail Hub,Healthy,2026-03-10
+Pens,Stationery,60,45,15,195,237,0,Town Supply,Healthy,2026-02-16
+LED Bulb,Electrical,65,49,16,52,58,0,Metro Distributors,Healthy,2026-02-26
+Notebook,Stationery,71,52,19,182,228,5,Town Supply,Healthy,2026-03-22
+Plastic Bucket,Household,19,0,19,177,238,50,Retail Hub,Low,2026-02-16
+Mop,Household,69,55,14,155,212,10,Retail Hub,Healthy,2026-02-05
+Plastic Bucket,Household,10,2,8,172,221,31,Retail Hub,Critical,2026-02-10
+Shampoo,Personal Care,8,0,8,90,126,25,Town Supply,Critical,2026-02-11
+Battery,Electrical,69,59,10,157,186,11,Metro Distributors,Healthy,2026-03-02
+Toothpaste,Personal Care,150,136,14,110,126,3,Retail Hub,Overstock,2026-01-08
+Notebook,Stationery,21,0,21,42,53,37,Metro Distributors,Low,2026-03-25
+Detergent,Cleaning,16,2,14,41,54,21,Metro Distributors,Low,2026-03-02
+Battery,Electrical,70,62,8,169,209,6,Retail Hub,Healthy,2026-02-11
+LED Bulb,Electrical,70,56,14,172,227,13,Retail Hub,Healthy,2026-01-30
+Toothpaste,Personal Care,11,3,8,148,206,37,Retail Hub,Low,2026-03-31
+Toothpaste,Personal Care,35,26,9,143,187,9,Metro Distributors,Healthy,2026-01-08
+Battery,Electrical,61,53,8,184,242,7,Town Supply,Healthy,2026-02-18
+Shampoo,Personal Care,66,52,14,108,132,6,Town Supply,Healthy,2026-02-28
+Pens,Stationery,8,2,6,129,174,43,Town Supply,Critical,2026-03-03
+Shampoo,Personal Care,23,3,20,76,86,48,Retail Hub,Low,2026-03-06
+Pens,Stationery,17,5,12,137,173,52,Town Supply,Low,2026-03-04
+Battery,Electrical,54,47,7,171,201,1,Metro Distributors,Healthy,2026-03-28
+Shampoo,Personal Care,42,34,8,57,73,1,Retail Hub,Healthy,2026-01-27
+Pens,Stationery,22,3,19,48,65,43,Town Supply,Low,2026-01-23
+Shampoo,Personal Care,76,70,6,106,140,0,Town Supply,Healthy,2026-01-15
+LED Bulb,Electrical,48,28,20,43,49,10,Retail Hub,Healthy,2026-02-20
+Pens,Stationery,14,5,9,95,108,35,Retail Hub,Low,2026-01-30
+Toothpaste,Personal Care,70,64,6,128,155,13,Metro Distributors,Healthy,2026-02-25
+Toothpaste,Personal Care,68,53,15,169,196,15,Metro Distributors,Healthy,2026-02-28
+Toothpaste,Personal Care,50,35,15,34,41,11,Retail Hub,Healthy,2026-03-17
+Toothpaste,Personal Care,130,116,14,150,206,1,Metro Distributors,Overstock,2026-02-19
+Notebook,Stationery,45,35,10,142,171,7,Town Supply,Healthy,2026-02-13
+Toothpaste,Personal Care,44,25,19,106,132,3,Town Supply,Healthy,2026-03-20
+Shampoo,Personal Care,15,1,14,172,201,57,Metro Distributors,Low,2026-01-30
+LED Bulb,Electrical,10,0,10,198,246,56,Retail Hub,Low,2026-03-10
+Pens,Stationery,18,4,14,190,250,54,Metro Distributors,Low,2026-02-12
+Mop,Household,75,70,5,125,147,8,Town Supply,Healthy,2026-01-28
+Pens,Stationery,47,38,9,56,66,3,Town Supply,Healthy,2026-03-03
+Dishwash Liquid,Cleaning,18,4,14,185,217,34,Retail Hub,Low,2026-03-02
+Battery,Electrical,1,0,1,194,250,57,Town Supply,Critical,2026-02-28
+Mop,Household,58,51,7,188,224,10,Town Supply,Healthy,2026-02-01
+Plastic Bucket,Household,98,93,5,89,115,0,Metro Distributors,Overstock,2026-02-11
+Dishwash Liquid,Cleaning,87,73,14,141,192,4,Metro Distributors,Overstock,2026-01-09
+Battery,Electrical,41,24,17,61,82,12,Town Supply,Healthy,2026-03-20
+Detergent,Cleaning,126,124,2,102,134,2,Metro Distributors,Overstock,2026-03-25
+Detergent,Cleaning,30,12,18,76,103,19,Metro Distributors,Healthy,2026-01-09
+Plastic Bucket,Household,67,58,9,72,100,12,Retail Hub,Healthy,2026-03-12
+Notebook,Stationery,18,0,18,31,38,51,Metro Distributors,Low,2026-01-29
+Plastic Bucket,Household,25,4,21,44,58,48,Town Supply,Low,2026-01-24
+Battery,Electrical,50,37,13,189,217,8,Metro Distributors,Healthy,2026-01-03
+Pens,Stationery,75,64,11,141,192,0,Retail Hub,Healthy,2026-02-09
+Dishwash Liquid,Cleaning,42,32,10,163,182,4,Metro Distributors,Healthy,2026-03-04
+Detergent,Cleaning,71,62,9,72,84,10,Metro Distributors,Healthy,2026-02-01
+Battery,Electrical,2,0,2,32,36,50,Retail Hub,Critical,2026-01-15
+Battery,Electrical,31,22,9,87,121,7,Town Supply,Healthy,2026-02-23
+Pens,Stationery,73,65,8,27,34,11,Retail Hub,Healthy,2026-02-19
+Shampoo,Personal Care,1,0,1,200,251,52,Retail Hub,Critical,2026-01-01
+Plastic Bucket,Household,4,2,2,168,193,52,Metro Distributors,Critical,2026-02-22
+Battery,Electrical,19,5,14,50,64,49,Metro Distributors,Low,2026-01-28
+Toothpaste,Personal Care,40,31,9,171,237,9,Town Supply,Healthy,2026-01-27
+Plastic Bucket,Household,10,2,8,53,70,54,Town Supply,Low,2026-03-03
+Shampoo,Personal Care,82,73,9,35,48,0,Town Supply,Overstock,2026-01-08
+Dishwash Liquid,Cleaning,113,110,3,81,101,1,Retail Hub,Overstock,2026-03-17
+Pens,Stationery,75,57,18,73,83,10,Retail Hub,Healthy,2026-01-31
+Plastic Bucket,Household,17,1,16,166,219,21,Metro Distributors,Low,2026-01-13
+LED Bulb,Electrical,35,28,7,33,41,5,Retail Hub,Healthy,2026-01-13
+Plastic Bucket,Household,61,50,11,157,192,1,Metro Distributors,Healthy,2026-01-04
+Shampoo,Personal Care,52,32,20,55,63,5,Town Supply,Healthy,2026-01-07
+Dishwash Liquid,Cleaning,65,56,9,133,162,11,Town Supply,Healthy,2026-03-18
+Notebook,Stationery,62,50,12,116,138,9,Metro Distributors,Healthy,2026-02-20
+Mop,Household,1,0,1,99,134,39,Town Supply,Critical,2026-02-11
+Dishwash Liquid,Cleaning,73,67,6,29,37,1,Retail Hub,Healthy,2026-01-14
+Plastic Bucket,Household,19,5,14,168,192,24,Metro Distributors,Low,2026-02-12
+Mop,Household,43,23,20,77,98,9,Town Supply,Healthy,2026-01-02
+Pens,Stationery,143,138,5,36,50,3,Metro Distributors,Overstock,2026-03-21
